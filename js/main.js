@@ -6,9 +6,10 @@ $(document).ready(function() {
         e.stopPropagation();  // prevent the browser from following the link
 
         $('#pageContent').load($(this).attr('href')).hide().fadeIn();;
-
+        $('#logo').fadeIn();
         console.log('page loaded');
     });
 
+    $('#logo').hide();
     $('#pageContent').load('partials/home.html');
 });
