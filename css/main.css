@@ -70,12 +70,12 @@ body {
    =================== */
 
 .header-container {
-    border-bottom: 10px solid #415951;
+    border-bottom: 5px solid #415951;
 }
 
 .footer-container,
 .main aside {
-    border-top: 10px solid #415951;
+    border-top: 5px solid #415951;
 }
 
 .header-container,
@@ -92,40 +92,62 @@ body {
     MOBILE: Menu
    ============== */
 
-nav ul {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-}
+   ul {
+       list-style-type: none;
+       margin: 0;
+       text-align: center;
+       margin-bottom: 5%;
+  }
+   ul li {
+       display: inline-block;
+       margin: 0 10px;
+  }
+   a {
+       font-size: 16px;
+       color: #584e4a;
+       position: relative;
+       text-transform: uppercase;
+       text-decoration: none;
+       padding-bottom: 8px;
+  }
+   a:before, a:after {
+       content: '';
+       position: absolute;
+       bottom: 2px;
+       left: 0;
+       right: 0;
+       height: 2px;
+       background-color: #415951;
+  }
+   a:before {
+       opacity: 0;
+       transform: translateY(- 8px);
+       transition: transform 0s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0s;
+  }
+   a:after {
+       opacity: 0;
+       transform: translateY(4px);
+       transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0.2s;
+  }
+   a:hover:before, a:focus:before, a:hover:after, a:focus:after {
+       opacity: 1;
+       transform: translateY(0);
+  }
+   a:hover:before, a:focus:before {
+       transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0.2s;
+  }
+   a:hover:after, a:focus:after {
+       transition: transform 0s 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0s 0.2s;
+  }
+   
 
-nav a {
-    display: block;
-    margin-bottom: 10px;
-    padding: 15px 0;
-
-    text-align: center;
-    text-decoration: none;
-    font-weight: bold;
-
-    color: white;
-    background: #415951;
-}
-
-nav a:hover,
-nav a:visited {
-    color: white;
-}
-
-nav a:hover {
-    text-decoration: underline;
-}
-
-/* ==============
+/* ============== 
     MOBILE: Main
    ============== */
 
 .title {
     width: 100%;
+    padding-top: 10px;
 }
 
 .main {
@@ -186,36 +208,7 @@ nav a:hover {
         width: 100%;
     }
 
-    nav a {
-        float: left;
-        width: 27%;
-        margin: 0 1.7%;
-        padding: 25px 2%;
-        margin-bottom: 0;
-    }
-
-    nav li:first-child a {
-        margin-left: 0;
-    }
-
-    nav li:last-child a {
-        margin-right: 0;
-    }
-
-/* ========================
-    INTERMEDIATE: IE Fixes
-   ======================== */
-
-    nav ul li {
-        display: inline;
-    }
-
-    .oldie nav a {
-        margin: 0 0.7%;
-    }
-}
-
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 795px) {
 
 /* ====================
     WIDE: CSS3 Effects
@@ -228,18 +221,22 @@ nav a:hover {
                 box-shadow: 0 5px 10px #aaa;
     }
 
+    ul {
+        margin-top: 10%;
+   }
+
 /* ============
     WIDE: Menu
    ============ */
 
     .title {
         float: left;
-        width: 38%;
+        width: 40%;
     }
 
     nav {
         float: right;
-        width: 38%;
+        width: 60%;
     }
 
 /* ============
