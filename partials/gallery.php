@@ -13,6 +13,8 @@
                             $filedata = exif_read_data($imageFile);
                             if(is_array($filedata) && isset($filedata['ImageDescription'])){
                                 $imageDescription = $filedata['ImageDescription'];
+                            }else{
+                                $imageDescription = "";
                             }
                     ?>
                     <div class="gallery">
