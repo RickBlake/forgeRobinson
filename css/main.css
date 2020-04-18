@@ -2,6 +2,7 @@
 
 html {
     color: #222;
+    background-color: #BACFC9;
     font-size: 1em;
     line-height: 1.4;
 }
@@ -69,12 +70,17 @@ body {
     ALL: Green/Grey Theme
    =================== */
 
+.main {
+    background: #BACFC9;
+}
+
 .main aside {
     border-top: 5px solid #415951;
     margin-bottom: 20px;
 }
 
 .header-container,
+.main-container,
 .footer-container,
 .main aside {
     background: #BACFC9;
@@ -161,11 +167,20 @@ body {
 
 .footer-container footer {
     color: white;
-    padding: 20px 0;
+    background-color:rgba(0,0,0,0.7);
+    padding: 5px 20px 5px 20px;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
 }
 
-footer td {
-    padding-bottom: 5px;
+footer div {
+    float: left;
+    padding: 5px 50px 5px 0px;
+}
+
+footer p {
+    margin: 0em;
 }
 
 /* ===============
@@ -183,7 +198,7 @@ footer td {
 .coverPage {
 
     width: 100%;
-    padding-bottom: 400px;
+    padding-bottom: 200px;
 }
 
 

@@ -1,5 +1,4 @@
-<div>
-    <div class="main wrapper clearfix">
+
         <article>
             <header>
                 <h1>GALLERY</h1>
@@ -30,5 +29,3 @@
                 </div>
             </section>
         </article>
-    </div>
-</div>
