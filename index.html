@@ -32,9 +32,23 @@
             <!-- </h1> -->
             <nav>
                 <ul>
-                    <li><a href="partials/about.html" class="dynamicLoad">ABOUT</a></li>
-                    <li><a href="partials/gallery.php" class="dynamicLoad">GALLERY</a></li>
-                    <li><a href="partials/bio.html" class="dynamicLoad">BIO</a></li>
+                    <li class="dropdown">
+                        <a href="#">ABOUT <i class="arrow down"></i></a>
+                        <div class="dropdown-content">
+                            <a href="partials/mission.html" class="dynamicLoad">MISSION</a>
+                            <a href="partials/simon.html" class="dynamicLoad">SIMON</a>
+                            <a href="partials/antony.html" class="dynamicLoad">ANTONY</a>
+                        </div>
+                    </li>
+                    <li><a href="partials/gallery.php" class="dynamicLoad">WORKS</a></li>
+                    <li class="dropdown">
+                        <a href="#">APPROACH <i class="arrow down"></i></a>
+                        <div class="dropdown-content">
+                            <a href="partials/process.html" class="dynamicLoad">PROCESS</a>
+                            <a href="partials/sketchbook.html" class="dynamicLoad">SKETCHBOOK</a>
+                            <a href="partials/challenges.html" class="dynamicLoad">CHALLENGES</a>
+                        </div>
+                    </li>
                     <li><a href="partials/contact.html" class="dynamicLoad">CONTACT</a></li>
                 </ul>
             </nav>
@@ -53,10 +67,14 @@
 
     <div class="footer-container">
         <footer>
-            <div><p>LE PONT, 6110 CALIGNY, FRANCE</p></div>
-            <div><p>TEL: +53(0)233961716</p></div>
-            <div><p>EMAIL: info@forgerobinson.com</p></div>
-            <div><p>ALL RIGHTS RESERVED</p></div>  
+            <div class="contact-details wrapper">
+                <div class="grid-item"><p>LE PONT, 6110 CALIGNY, FRANCE</p></div>
+                <div class="grid-item"><p>TEL: +53(0)233961716</p></div>
+                <div class="grid-item"><p>EMAIL: info@forgerobinson.com</p></div>
+                <div class="grid-item"><p>©SIMON ROBINSON 2020</p> </div>
+                <div class="grid-item"><p>ALL RIGHTS RESERVED</p> </div>
+            </div>    
+        </div>
         </footer>
     </div>
 
