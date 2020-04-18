@@ -75,7 +75,6 @@ body {
 }
 
 .main aside {
-    border-top: 5px solid #415951;
     margin-bottom: 20px;
 }
 
@@ -206,7 +205,7 @@ i {
 
 .main aside {
     color: white;
-    padding: 0px 5% 10px;
+    padding: 0px 0px 10px;
 }
 
 .footer-container footer {
@@ -220,7 +219,7 @@ i {
 
 .contact-details {
     display: grid;
-    grid-column-gap: 20px;
+    grid-column-gap: 30px;
     grid-template-columns: auto auto auto;
   }
   
@@ -285,6 +284,39 @@ div.gallery {
     font-size: 16px;
   }
 
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .contact-container {
+    margin-top: 50px;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    color: black;
+  }
+
+  .contact-container td {
+      padding: 10px;
+  }
+
 /* ==========================================================================
    Media Queries
    ========================================================================== */
@@ -305,13 +337,6 @@ div.gallery {
 /* ====================
     WIDE: CSS3 Effects
    ==================== */
-
-    .header-container,
-    .main aside {
-        -webkit-box-shadow: 0 5px 10px #aaa;
-           -moz-box-shadow: 0 5px 10px #aaa;
-                box-shadow: 0 5px 10px #aaa;
-    }
 
     ul {
         margin-top: 10%;
@@ -336,12 +361,12 @@ div.gallery {
 
     .main article {
         float: left;
-        width: 57%;
+        width: 50%;
     }
 
     .main aside {
         float: right;
-        width: 28%;
+        width: 40%;
     }
 }
 
