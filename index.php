@@ -16,10 +16,9 @@
 
     <link rel="stylesheet" href="css/normalize.min.css">
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/lightbox.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
 
     <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
-    <script src="js/lightbox.min.js"></script>
 </head>
 
 <body>
@@ -77,9 +76,10 @@
         </footer>
     </div>
 
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
+
     <script>
-        window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')
+        window.jQuery || document.write('<script src="js/vendor/jquery-3.5.0.min.js"><\/script>')
     </script>
 
     <script src="js/plugins.js"></script>
@@ -102,6 +102,13 @@
         ga('create', 'UA-XXXXX-X', 'auto');
         ga('send', 'pageview');
     </script>
+
+    <script src="js/magnific-popup.min.js"></script>
+
+    <script>
+        $('.image-link').magnificPopup({type:'image'});
+    </script>
+
 </body>
 
 </html>
