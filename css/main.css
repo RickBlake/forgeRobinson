@@ -222,17 +222,20 @@ i {
     -ms-flex: 100%;
     flex: 100%;
     max-width: 100%;
-    padding: 0 4px;
 }
 
 .gallery-item img {
-    margin-top: 8px;
-    vertical-align: middle;
+    height: 100%;
     width: 100%;
+    object-fit: cover;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
   }
 
 .desc {
+    margin-top: 5px;
     text-align: center;
+    font-size: x-large;
+    font-style: bold;
 }
 
 footer p {
