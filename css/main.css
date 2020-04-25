@@ -74,10 +74,6 @@ body {
     background: #BACFC9;
 }
 
-.main aside {
-    margin-bottom: 20px;
-}
-
 .header-container,
 .main-container,
 .footer-container,
@@ -192,28 +188,25 @@ i {
 
 .title {
     width: 100%;
-    padding-top: 10px;
 }
 
 .main {
     padding: 30px 0;
 }
 
-.main article h1 {
+.main aside h1 {
     font-size: 2em;
+    margin: 0em;
 }
 
 .main aside {
     color: black;
-    padding: 0px 0px 10px;
 }
 
 .footer-container footer {
-    color: white;
-    background-color:rgba(0,0,0,0.7);
-    padding: 5px 20px 5px 20px;
-    position: fixed;
-    bottom: 0px;
+    color: black;
+    font-size: smaller;
+    padding-bottom: 20px;
     width: 100%;
 }
 
@@ -256,7 +249,7 @@ footer p {
 .coverPage {
 
     width: 100%;
-    padding-bottom: 200px;
+    padding-bottom: 100px;
 }
 
   button {
@@ -274,32 +267,39 @@ footer p {
   input[type=text], select, textarea {
     width: 100%;
     padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
+    border: 2px solid #415951;
+    border-radius: 0px;
     box-sizing: border-box;
     resize: vertical;
+    background: transparent;
+    box-shadow: 3px 3px #415951;
   }
   
   input[type=submit] {
-    background-color: #4CAF50;
+    background-color: #415951;
     color: white;
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    width: 100%;
   }
   
   input[type=submit]:hover {
-    background-color: #45a049;
-  }
-  
-  .contact-container {
-    margin-top: 50px;
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    color: black;
+    background-color: #415951;
   }
 
+  .glyph{
+    position: relative;
+    top: 35px;
+    left: 50%;
+    pointer-events: none;
+    color: white;
+  }
+
+  .contact-container{
+      margin-top: 100px;
+  }
   .contact-container td {
       padding: 10px;
   }

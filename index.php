@@ -16,8 +16,10 @@
 
     <link rel="stylesheet" href="css/normalize.min.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/lightbox.min.css">
 
     <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    <script src="js/lightbox.min.js"></script>
 </head>
 
 <body>
@@ -38,6 +40,7 @@
                             <a href="partials/mission.html" class="dynamicLoad">MISSION</a>
                             <a href="partials/simon.html" class="dynamicLoad">SIMON</a>
                             <a href="partials/antony.html" class="dynamicLoad">ANTONY</a>
+                            <a href="partials/press.html" class="dynamicLoad">PRESS</a>
                         </div>
                     </li>
                     <li><a href="partials/works.php" class="dynamicLoad">WORKS</a></li>
@@ -67,12 +70,8 @@
 
     <div class="footer-container">
         <footer>
-            <div class="contact-details wrapper">
-                <div class="grid-item"><p>LE PONT, 6110 CALIGNY, FRANCE</p></div>
-                <div class="grid-item"><p>TEL: +53(0)233961716</p></div>
-                <div class="grid-item"><p>EMAIL: info@forgerobinson.com</p></div>
-                <div class="grid-item"><p>©SIMON ROBINSON 2020</p> </div>
-                <div class="grid-item"><p>ALL RIGHTS RESERVED</p> </div>
+            <div class="wrapper">
+                <p>©SIMON ROBINSON <?php echo date("Y");?> ALL RIGHTS RESERVED</p>
             </div>    
         </div>
         </footer>
