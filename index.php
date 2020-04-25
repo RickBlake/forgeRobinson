@@ -43,7 +43,7 @@
                             <a href="partials/press.html" class="dynamicLoad">PRESS</a>
                         </div>
                     </li>
-                    <li><a href="partials/works.php" class="dynamicLoad">WORKS</a></li>
+                    <li><a href="partials/works.html" class="dynamicLoad">WORKS</a></li>
                     <li class="dropdown">
                         <a href="#">APPROACH <i class="arrow down"></i></a>
                         <div class="dropdown-content">

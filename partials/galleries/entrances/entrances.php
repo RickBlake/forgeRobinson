@@ -1,17 +1,21 @@
 
-        <article>
+        <div>
             <header>
-                <h1>GALLERY 1</h1>
+                <h1>ENTRANCES</h1>
             </header>
-            <section>
                 <div class="main wrapper clearfix">
                     
-                    <div class="gallery-grid">
-                        <?php 
-                            $dir = glob('../img/gallery1/{*.jpeg, *.png}', GLOB_BRACE);
+                    <div class="gallery">
 
-                            foreach ($dir as $imageFile) {
+                        <?php 
+                            $dir = getcwd() . '/*.jpeg';
+                            $relativePath = substr(__DIR__, strlen($_SERVER['DOCUMENT_ROOT']));
+
+                            $imageList = glob($dir, GLOB_BRACE);
+
+                            foreach ($imageList as $imageFile) {
                                 $filedata = exif_read_data($imageFile);
+                                $imagePath = $relativePath . '/' . $filedata['FileName'];
                                 if(is_array($filedata) && isset($filedata['ImageDescription'])){
                                     $imageDescription = $filedata['ImageDescription'];
                                 }else{
@@ -20,7 +24,7 @@
                         ?>
                         <div class="gallery-item">
                             <a target="_blank" href="">
-                                <img src="<?php echo $imageFile; ?>" alt="Cinque Terre">
+                                <img src="<?php echo $imagePath; ?>" alt="Cinque Terre">
                             </a>
                             <div class="desc"><?php echo $imageDescription; ?></div>
                         </div>
@@ -29,5 +33,4 @@
                         ?>
                     </div>
                 </div>
-            </section>
-        </article>
+        </div>
