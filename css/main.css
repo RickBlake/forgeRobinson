@@ -222,16 +222,8 @@ i {
     -ms-flex: 100%;
     flex: 100%;
     max-width: 100%;
-    position:relative;
-}
-
-.gallery-item:hover > .overlay {
-    width:100%;
-    height:100%;
-    position:absolute;
-    background-color:#000;
-    opacity:0.5;
-    border-radius:30px;
+    padding-left: 0px;
+    padding-bottom: 0px;
 }
 
 .gallery-item img {
@@ -376,10 +368,12 @@ footer p {
     }
 
     .gallery-item {
-        -ms-flex: 48%;
-        flex: 48%;
-        max-width: 48%;
-      }
+        -ms-flex: 42%;
+        flex: 42%;
+        max-width: 42%;
+        padding-left: 50px;
+        padding-bottom: 40px;
+    }
 }
 
 @media only screen and (min-width: 1140px) {
@@ -394,9 +388,11 @@ footer p {
     }
 
     .gallery-item {
-        -ms-flex: 32%;
-        flex: 32%;
-        max-width: 32%;
+        -ms-flex: 27%;
+        flex: 27%;
+        max-width: 27%;
+        padding-left: 60px;
+        padding-bottom: 40px;
     }
 }
 
