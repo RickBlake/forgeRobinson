@@ -47,7 +47,7 @@
                         <a href="#">APPROACH <i class="arrow down"></i></a>
                         <div class="dropdown-content">
                             <a href="partials/process.html" class="dynamicLoad">PROCESS</a>
-                            <a href="partials/sketchbook.html" class="dynamicLoad">SKETCHBOOK</a>
+                            <a href="partials/galleries/sketchbook/sketchbook.php" class="dynamicLoad">SKETCHBOOK</a>
                             <a href="partials/challenges.html" class="dynamicLoad">CHALLENGES</a>
                         </div>
                     </li>

@@ -1,7 +1,7 @@
 <div>
     <aside>
         <header>
-            <h1>ENTRANCES</h1>
+            <h1>SKETCHBOOK</h1>
         </header>
     </aside>
     <div class="main wrapper clearfix">
