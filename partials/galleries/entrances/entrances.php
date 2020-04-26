@@ -21,10 +21,12 @@
                         $imageDescription = "";
                     }
             ?>
-
-            <a class="gallery-item" href="<?php echo $imagePath; ?>">
-                <img src="<?php echo $imagePath; ?>" />
-            </a>
+            <div class="gallery-item" data-src="<?php echo $imagePath; ?>"
+                data-pinterest-text="Work by Forge Robinson" 
+                data-tweet-text="Work by Forge Robinson" 
+                data-facebook-text="Work by Forge Robinson">  
+                <img src="<?php echo $imagePath; ?>" />      
+            </div>
 
             <?php 
                 } 
