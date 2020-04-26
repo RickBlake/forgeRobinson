@@ -4,7 +4,7 @@
     </header>
     <div class="main wrapper clearfix">
 
-        <div class="gallery">
+        <div id="gallery">
 
             <?php 
                 $dir = getcwd() . '/*.jpg';
@@ -22,11 +22,10 @@
                     }
             ?>
 
-            <div class="gallery-item">
-                <a href="<?php echo $imagePath; ?>" title="<?php echo $imageDescription; ?>">
-                    <img src="<?php echo $imagePath; ?>">
-                </a>
-            </div>
+            <a class="gallery-item" href="<?php echo $imagePath; ?>">
+                <img src="<?php echo $imagePath; ?>" />
+            </a>
+
             <?php 
                 } 
             ?>
@@ -34,21 +33,7 @@
     </div>
 </div>
 <script>
-    $('.gallery').magnificPopup({
-        delegate: 'a',
-		type: 'image',
-		tLoading: 'Loading image #%curr%...',
-		mainClass: 'mfp-img-mobile',
-		gallery: {
-			enabled: true,
-			navigateByImgClick: true,
-			preload: [0,1] // Will preload 0 - before current, and 1 after the current image
-		},
-		image: {
-			tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
-			titleSrc: function(item) {
-				return item.el.attr('title');
-			}
-		}
-      });
+    $('#gallery').lightGallery({
+        selector: '.gallery-item'
+    });
 </script>

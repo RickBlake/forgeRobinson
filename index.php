@@ -16,7 +16,7 @@
 
     <link rel="stylesheet" href="css/normalize.min.css">
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.3.2/css/lightgallery.css" />
 
     <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
 </head>
@@ -76,7 +76,7 @@
         </footer>
     </div>
 
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
     <script>
         window.jQuery || document.write('<script src="js/vendor/jquery-3.5.0.min.js"><\/script>')
@@ -103,11 +103,8 @@
         ga('send', 'pageview');
     </script>
 
-    <script src="js/magnific-popup.min.js"></script>
-
-    <script>
-        $('.image-link').magnificPopup({type:'image'});
-    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.3.2/js/lightgallery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lg-thumbnail/1.1.0/lg-thumbnail.min.js"></script>
 
 </body>
 

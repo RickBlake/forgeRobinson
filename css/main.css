@@ -210,7 +210,7 @@ i {
     width: 100%;
 }
 
-.gallery {
+#gallery {
     display: -ms-flexbox; /* IE10 */
     display: flex;
     -ms-flex-wrap: wrap; /* IE10 */
@@ -232,7 +232,7 @@ i {
   }
 
 .desc {
-    margin-top: 5px;
+    margin-top: 10px;
     text-align: center;
     font-size: x-large;
     font-style: bold;
