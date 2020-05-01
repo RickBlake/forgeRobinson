@@ -49,6 +49,7 @@
                     }
             ?>
                         <div class="gallery-item" data-src="<?php echo $imagePath; ?>"
+                            data-sub-html="<?php echo $imageDescription; ?>"
                             data-pinterest-text="Work by Forge Robinson" data-tweet-text="Work by Forge Robinson"
                             data-facebook-text="Work by Forge Robinson">
                             <img src="<?php echo $imagePath; ?>" />
@@ -84,7 +85,8 @@
 
     <script>
         $('#gallery').lightGallery({
-            selector: '.gallery-item'
+            selector: '.gallery-item',
+            enableDrag:false
         });
     </script>
 </body>
