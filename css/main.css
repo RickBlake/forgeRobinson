@@ -229,6 +229,7 @@ h1 {
     display: flex;
     -ms-flex-wrap: wrap; /* IE10 */
     flex-wrap: wrap;
+    padding-top: 10px;
 }
 
 .gallery-item {
