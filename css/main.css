@@ -184,6 +184,7 @@ i {
   .galleryHeader {
       text-align: right;
       width: 85%;
+      padding-bottom: 10px;
   }
    
 
@@ -200,10 +201,9 @@ i {
     padding: 10px 0;
 }
 
-.main aside h1 {
+h1 {
     font-size: 2em;
     margin: 0em;
-
 }
 
 .main aside {
