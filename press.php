@@ -25,16 +25,12 @@
         <div>
             <div class="main wrapper clearfix">
                 <div id="pageContent">
-                    <article>
-                        <section>
-                            <img src="img/profilePicture1.jpg" width="100%"></img>
-                        </section>
-                    </article>
 
-                    <aside>
-                        <header>
-                            <h1>PRESS</h1>
-                        </header>
+                    <div class="fullwidthHeader">
+                        <h1>PRESS</h1>
+                    </div>
+                    <img src="img/press.webp" width="100%"></img>
+
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales urna non odio
                             egestas tempor. Nunc
                             vel vehicula ante. Etiam bibendum iaculis libero, eget molestie nisl pharetra in. In semper
@@ -42,9 +38,7 @@
                             eu porta velit mollis nec. Curabitur posuere enim eget turpis feugiat tempor. Etiam
                             ullamcorper lorem
                             dapibus velit suscipit ultrices.</p>
-                    </aside>
 
-                    <aside>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales urna non odio
                             egestas tempor. Nunc
                             vel vehicula ante. Etiam bibendum iaculis libero, eget molestie nisl pharetra in. In semper
@@ -52,7 +46,6 @@
                             eu porta velit mollis nec. Curabitur posuere enim eget turpis feugiat tempor. Etiam
                             ullamcorper lorem
                             dapibus velit suscipit ultrices.</p>
-                    </aside>
 
 
                 </div>

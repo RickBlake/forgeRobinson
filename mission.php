@@ -26,6 +26,10 @@
             <div class="main wrapper clearfix">
                 <div id="pageContent">
 
+                    <div class="fullwidthHeader">
+                        <h1>MISSION</h1>
+                    </div>
+
                     <article>
                         <section>
                             <img src="img/aboutPhoto.jpeg" width="100%"></img>
@@ -33,9 +37,6 @@
                     </article>
 
                     <aside>
-                        <header>
-                            <h1>MISSION</h1>
-                        </header>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales urna non odio
                             egestas tempor. Nunc
                             vel vehicula ante. Etiam bibendum iaculis libero, eget molestie nisl pharetra in. In semper

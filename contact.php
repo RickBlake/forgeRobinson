@@ -25,6 +25,11 @@
         <div>
             <div class="main wrapper clearfix">
                 <div id="pageContent">
+
+                    <div class="fullwidthHeader">
+                        <h1>CONTACT</h1>
+                    </div>
+
                     <article>
                         <section>
                             <p>Simon Robinson, Le Pont, 61100 CALIGNY, NORMANDIE, FRANCE.</p>
@@ -37,9 +42,6 @@
                     </article>
 
                     <aside>
-                        <header>
-                            <h1>CONTACT</h1>
-                        </header>
                         <div class="contact-container">
                             <form action="/action_page.php">
                                 <table>

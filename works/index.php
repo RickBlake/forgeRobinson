@@ -26,7 +26,7 @@
             <div class="main wrapper clearfix">
                 <div id="pageContent">
                     <div>
-                        <div class="galleryHeader">
+                        <div class="fullwidthHeader">
                             <h1>WORKS</h1>
                         </div>
                         <div class="main wrapper clearfix">
