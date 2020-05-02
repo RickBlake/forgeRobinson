@@ -25,11 +25,9 @@
     <div class="main wrapper clearfix">
         <div id="gallery">
             <div>
-                <aside>
-                    <header>
-                        <h1>ENTRANCES</h1>
-                    </header>
-                </aside>
+                <div class="galleryHeader">
+                    <h1>ENTRANCES / ENTREES</h1>
+                </div>
                 <div class="main wrapper clearfix">
                     <div id="gallery">
 
