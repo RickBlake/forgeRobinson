@@ -31,7 +31,7 @@
 
                     <article>
                         <section>
-                            <img src="img/aboutPhoto.jpeg" width="100%"></img>
+                            <img class src="img/aboutPhoto.jpeg" width="100%"></img>
                         </section>
                     </article>
 

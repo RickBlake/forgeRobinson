@@ -20,16 +20,23 @@
 <body>
 
     <?php include 'header.php';?>
-
+    <div class="fullwidthHeader">
+        <h1>PRESS</h1>
+    </div>
+    <div class="panoramic">
+        <img src="img/press.webp" height="auto" width="100%"></img>
+    </div>
+    
     <div class="main-container">
         <div>
+            
             <div class="main wrapper clearfix">
+                
+                
                 <div id="pageContent">
-
-                    <div class="fullwidthHeader">
-                        <h1>PRESS</h1>
-                    </div>
-                    <img src="img/press.webp" width="100%"></img>
+                        
+                    
+                    
 
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales urna non odio
                             egestas tempor. Nunc
