@@ -317,6 +317,18 @@ footer p {
     height: 100%;
     width: auto;
 }
+
+.contactAddress {
+    width: 100%;
+}
+
+.contactAddress td {
+    text-align: right;
+}
+
+.contactAddress td:first-child {
+    text-align: left;
+}
   
 
 /* ===============

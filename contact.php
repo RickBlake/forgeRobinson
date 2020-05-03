@@ -32,8 +32,13 @@
 
                     <article>
                         <section>
-                            <p>Simon Robinson, Le Pont, 61100 CALIGNY, NORMANDIE, FRANCE.</p>
-                            <p>TEL: +53(0)233961716</p>
+                            <table class="contactAddress">
+                                <tr>
+                                    <td><p>Simon Robinson</td>   
+                                    <td><p>Le Pont, 61100 Caligny, Normandie, France.</p></td>
+                                </tr>
+                            </table>
+                            <p>TEL: +33 (0)233 96 17 16</p>
                             <p>EMAIL: info@forgerobinson.com</p>
                         </section>
                         <section>
