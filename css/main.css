@@ -293,13 +293,14 @@ footer p {
 }    
 
 .panoramic { 
+    margin-top: 20px;
     height: 300px;
     object-fit: cover;
     overflow: hidden;
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: inset 0px 0px 10px rgba(0,0,0,0.5);
+    box-shadow: inset 0px 0px 30px 10px rgba(0,0,0,0.7);
 }
 
 .panoramic img {
@@ -436,7 +437,7 @@ footer p {
 
     .main aside {
         float: right;
-        width: 40%;
+        width: 45%;
     }
 
     .gallery-item {
