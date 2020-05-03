@@ -5,7 +5,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title></title>
+    <title>ENTRANCES / ENTREES</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
@@ -45,7 +45,7 @@
                                 $driveFile = json_decode($fileData, true);
 
                                 $imagePath = "https://drive.google.com/uc?id=" . $driveFile['id'];
-                                $imageDescription = $driveFile['description'];
+                                $imageDescription = $driveFile['description'] . " <br/>©SIMON ROBINSON " . date("Y") . " ALL RIGHTS RESERVED";
                             
                                 ?>
                         <div class="gallery-item" data-src="<?php echo $imagePath; ?>"
