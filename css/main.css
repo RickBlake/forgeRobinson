@@ -293,7 +293,7 @@ footer p {
 }    
 
 .panoramic { 
-    height: 200px;
+    height: 300px;
     object-fit: cover;
     overflow: hidden;
     display: flex;
@@ -306,6 +306,9 @@ footer p {
     margin: 0;
     position: relative;
     z-index: -2;
+
+    height: 100%;
+    width: auto;
 }
   
 
@@ -403,6 +406,11 @@ footer p {
     ul {
         margin-top: 12%;
    }
+
+   .panoramic img {
+        height: auto;
+        width: 100%;
+    }
 
 /* ============
     WIDE: Menu

@@ -20,23 +20,19 @@
 <body>
 
     <?php include 'header.php';?>
-
+    
+    <div class="fullwidthHeader">
+        <h1>CHALLENGES</h1>
+    </div>
+    <div class="panoramic">
+        <img src="img/challenges.webp"></img>
+    </div>
+    
     <div class="main-container">
         <div>
-            <div class="main wrapper clearfix">
+            <div class="main wrapper clearfix"> 
                 <div id="pageContent">
 
-                    <div class="fullwidthHeader">
-                        <h1>CHALLENGES</h1>
-                    </div>
-
-                    <article>
-                        <section>
-                            <img src="img/aboutPhoto.jpeg" width="100%"></img>
-                        </section>
-                    </article>
-
-                    <aside>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales urna non odio
                             egestas tempor. Nunc
                             vel vehicula ante. Etiam bibendum iaculis libero, eget molestie nisl pharetra in. In semper
@@ -44,9 +40,7 @@
                             eu porta velit mollis nec. Curabitur posuere enim eget turpis feugiat tempor. Etiam
                             ullamcorper lorem
                             dapibus velit suscipit ultrices.</p>
-                    </aside>
 
-                    <aside>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales urna non odio
                             egestas tempor. Nunc
                             vel vehicula ante. Etiam bibendum iaculis libero, eget molestie nisl pharetra in. In semper
@@ -54,7 +48,7 @@
                             eu porta velit mollis nec. Curabitur posuere enim eget turpis feugiat tempor. Etiam
                             ullamcorper lorem
                             dapibus velit suscipit ultrices.</p>
-                    </aside>
+
 
                 </div>
             </div>
