@@ -33,9 +33,8 @@
 
                         <?php 
                          
-                            // // make the request
-                            $folderQuery = '\'1L58e6kMIxZbusk_tpb4HnzJklpz6wTaj\'+in+parents';
-                            $responseFolder = $client->get('drive/v3/files?q=' . $folderQuery);
+                            $folderId = '1L58e6kMIxZbusk_tpb4HnzJklpz6wTaj';
+                            $responseFolder = $client->get('drive/v3/files?q=\'' . $folderId . '\'+in+parents');
                             $folderData = $responseFolder->getBody();
                             $driveFolder = json_decode($folderData, true);
 
@@ -57,8 +56,8 @@
                         </div>
 
                         <?php 
-                } 
-            ?>
+                            } 
+                        ?>
                     </div>
                 </div>
             </div>
@@ -82,7 +81,7 @@
     <script>
         $('#gallery').lightGallery({
             selector: '.gallery-item',
-            enableDrag:false
+            enableDrag: false
         });
     </script>
 </body>
