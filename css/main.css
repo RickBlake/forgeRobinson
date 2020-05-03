@@ -224,6 +224,12 @@ h1 {
     text-align: center;
 }
 
+.galleryHeader {
+    width: 100%;
+    text-align: right;
+    padding-bottom: 20px;
+}
+
 #gallery {
     display: -ms-flexbox; /* IE10 */
     display: flex;
