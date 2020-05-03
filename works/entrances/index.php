@@ -5,7 +5,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title></title>
+    <title>ENTRANCES / ENTREES</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
@@ -20,7 +20,7 @@
 <body>
 
     <?php include '../../header.php';?>
-
+    <?php include '../../driveAuth.php';?>
 
     <div class="main wrapper clearfix">
         <div id="gallery">
@@ -32,39 +32,35 @@
                     <div id="gallery">
 
                         <?php 
-                $dir = getcwd() . '/*.jpg';
-                $relativePath = substr(__DIR__, strlen($_SERVER['DOCUMENT_ROOT']));
+                         
+                            $folderId = '1L58e6kMIxZbusk_tpb4HnzJklpz6wTaj';
+                            $responseFolder = $client->get('drive/v3/files?q=\'' . $folderId . '\'+in+parents');
+                            $folderData = $responseFolder->getBody();
+                            $driveFolder = json_decode($folderData, true);
 
-                $imageList = glob($dir, GLOB_BRACE);
+                            foreach ($driveFolder['files'] as $imageFile) {
 
-                foreach ($imageList as $imageFile) {
-                    $filedata = exif_read_data($imageFile);
-                    $imagePath = $relativePath . '/' . $filedata['FileName'];
-                    if(is_array($filedata) && isset($filedata['ImageDescription'])){
-                        $imageDescription = $filedata['ImageDescription'];
-                    }else{
-                        $imageDescription = "";
-                    }
-                    $imageDescription = $imageDescription . " <br/>©SIMON ROBINSON " . date("Y") . " ALL RIGHTS RESERVED";
-            ?>
+                                $responseFile = $client->get('drive/v2/files/' . $imageFile['id']);
+                                $fileData = $responseFile->getBody();
+                                $driveFile = json_decode($fileData, true);
+
+                                $imagePath = "https://drive.google.com/uc?id=" . $driveFile['id'];
+                                $imageDescription = $driveFile['description'] . " <br/>©SIMON ROBINSON " . date("Y") . " ALL RIGHTS RESERVED";
+                            
+                                ?>
                         <div class="gallery-item" data-src="<?php echo $imagePath; ?>"
                             data-sub-html="<?php echo $imageDescription; ?>"
                             data-pinterest-text="Work by Forge Robinson" data-tweet-text="Work by Forge Robinson"
                             data-facebook-text="Work by Forge Robinson">
-                            <img src="<?php echo $imagePath; ?>" />
+                            <img src="/img/loading.gif" data-src="<?php echo $imagePath; ?>" />
                         </div>
 
                         <?php 
-                } 
-            ?>
+                            } 
+                        ?>
                     </div>
                 </div>
             </div>
-
-
-
-
-
         </div>
     </div>
     </div>
@@ -85,8 +81,19 @@
     <script>
         $('#gallery').lightGallery({
             selector: '.gallery-item',
-            enableDrag:false
+            enableDrag: false
         });
+    </script>
+
+    <script>
+    window.addEventListener('load', function(){
+        var allimages= document.getElementsByTagName('img');
+        for (var i=0; i<allimages.length; i++) {
+            if (allimages[i].getAttribute('data-src')) {
+                allimages[i].setAttribute('src', allimages[i].getAttribute('data-src'));
+            }
+        }
+    }, false)
     </script>
 </body>
 
