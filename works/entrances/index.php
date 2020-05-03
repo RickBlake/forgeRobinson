@@ -45,6 +45,7 @@
                     }else{
                         $imageDescription = "";
                     }
+                    $imageDescription = $imageDescription . " <br/>©SIMON ROBINSON " . date("Y") . " ALL RIGHTS RESERVED";
             ?>
                         <div class="gallery-item" data-src="<?php echo $imagePath; ?>"
                             data-sub-html="<?php echo $imageDescription; ?>"
