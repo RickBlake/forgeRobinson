@@ -41,7 +41,7 @@
                                 </div>
 
                                 <div class="gallery-item">
-                                    <a target="_blank" href="" class="dynamicLoad image-container">
+                                    <a href="/works/stairways/" class="image-container">
                                         <img src="/img/STAIRWAYS.webp">
                                         <div class="en-desc">STAIRWAYS</div>
                                         <div class="fr-desc">ESCALIERS</div>
