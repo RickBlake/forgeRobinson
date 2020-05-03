@@ -35,10 +35,32 @@
                          
                             // // make the request
                             $folderQuery = '\'1L58e6kMIxZbusk_tpb4HnzJklpz6wTaj\'+in+parents';
-                            $response = $client->get('drive/v3/files?q=' . $folderQuery);
-                            print_r((string) $response->getBody());
+                            $responseFolder = $client->get('drive/v3/files?q=' . $folderQuery);
+                            $folderData = $responseFolder->getBody();
+                            $driveFolder = json_decode($folderData, true);
 
-                        ?>
+                            foreach ($driveFolder['files'] as $imageFile) {
+
+                                $responseFile = $client->get('drive/v2/files/' . $imageFile['id']);
+                                $fileData = $responseFile->getBody();
+                                print_r((string)$responseFile->getBody());
+
+                                $driveFile = json_decode($fileData, true);
+
+                                $imagePath = "https://drive.google.com/file/d/" . $driveFile['id'];
+                                $imageDescription = $driveFile['description'];
+                            
+                                ?>
+                        <div class="gallery-item" data-src="<?php echo $imagePath; ?>"
+                            data-sub-html="<?php echo $imageDescription; ?>"
+                            data-pinterest-text="Work by Forge Robinson" data-tweet-text="Work by Forge Robinson"
+                            data-facebook-text="Work by Forge Robinson">
+                            <img src="<?php echo $imagePath; ?>" />
+                        </div>
+
+                        <?php 
+                } 
+            ?>
                     </div>
                 </div>
             </div>
