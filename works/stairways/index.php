@@ -43,11 +43,9 @@
 
                                 $responseFile = $client->get('drive/v2/files/' . $imageFile['id']);
                                 $fileData = $responseFile->getBody();
-                                print_r((string)$responseFile->getBody());
-
                                 $driveFile = json_decode($fileData, true);
 
-                                $imagePath = "https://drive.google.com/file/d/" . $driveFile['id'];
+                                $imagePath = "https://drive.google.com/uc?id=" . $driveFile['id'];
                                 $imageDescription = $driveFile['description'];
                             
                                 ?>
