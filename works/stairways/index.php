@@ -34,25 +34,21 @@
                         <?php 
                          
                             $folderId = '1KyPlyBiSggkpEbMyvlfsTAOozSmkec9R';
-                            $responseFolder = $client->get('drive/v3/files?q=\'' . $folderId . '\'+in+parents');
+                            $responseFolder = $client->get('drive/v2/files?q=\'' . $folderId . '\'+in+parents');
                             $folderData = $responseFolder->getBody();
                             $driveFolder = json_decode($folderData, true);
 
-                            foreach ($driveFolder['files'] as $imageFile) {
-
-                                $responseFile = $client->get('drive/v2/files/' . $imageFile['id']);
-                                $fileData = $responseFile->getBody();
-                                $driveFile = json_decode($fileData, true);
-
-                                $imagePath = "https://drive.google.com/uc?id=" . $driveFile['id'];
-                                $imageDescription = $driveFile['description'] . " <br/>©SIMON ROBINSON " . date("Y") . " ALL RIGHTS RESERVED";
+                            foreach ($driveFolder['items'] as $imageFile) {
+                                $imagePath = "https://drive.google.com/uc?id=" . $imageFile['id'];
+                                $imageDescription = $imageFile['description'] . " <br/>©SIMON ROBINSON " . date("Y") . " ALL RIGHTS RESERVED";
                             
-                                ?>
+                        ?>
+
                         <div class="gallery-item" data-src="<?php echo $imagePath; ?>"
                             data-sub-html="<?php echo $imageDescription; ?>"
                             data-pinterest-text="Work by Forge Robinson" data-tweet-text="Work by Forge Robinson"
                             data-facebook-text="Work by Forge Robinson">
-                            <img src="<?php echo $imagePath; ?>" />
+                            <img src="/img/loading.gif" data-src="<?php echo $imagePath; ?>" />
                         </div>
 
                         <?php 
@@ -83,6 +79,17 @@
             selector: '.gallery-item',
             enableDrag: false
         });
+    </script>
+
+    <script>
+    window.addEventListener('load', function(){
+        var allimages= document.getElementsByTagName('img');
+        for (var i=0; i<allimages.length; i++) {
+            if (allimages[i].getAttribute('data-src')) {
+                allimages[i].setAttribute('src', allimages[i].getAttribute('data-src'));
+            }
+        }
+    }, false)
     </script>
 </body>
 

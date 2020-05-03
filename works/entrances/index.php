@@ -34,20 +34,15 @@
                         <?php 
                          
                             $folderId = '1L58e6kMIxZbusk_tpb4HnzJklpz6wTaj';
-                            $responseFolder = $client->get('drive/v3/files?q=\'' . $folderId . '\'+in+parents');
+                            $responseFolder = $client->get('drive/v2/files?q=\'' . $folderId . '\'+in+parents');
                             $folderData = $responseFolder->getBody();
                             $driveFolder = json_decode($folderData, true);
 
-                            foreach ($driveFolder['files'] as $imageFile) {
-
-                                $responseFile = $client->get('drive/v2/files/' . $imageFile['id']);
-                                $fileData = $responseFile->getBody();
-                                $driveFile = json_decode($fileData, true);
-
-                                $imagePath = "https://drive.google.com/uc?id=" . $driveFile['id'];
-                                $imageDescription = $driveFile['description'] . " <br/>©SIMON ROBINSON " . date("Y") . " ALL RIGHTS RESERVED";
+                            foreach ($driveFolder['items'] as $imageFile) {
+                                $imagePath = "https://drive.google.com/uc?id=" . $imageFile['id'];
+                                $imageDescription = $imageFile['description'] . " <br/>©SIMON ROBINSON " . date("Y") . " ALL RIGHTS RESERVED";
                             
-                                ?>
+                        ?>
                         <div class="gallery-item" data-src="<?php echo $imagePath; ?>"
                             data-sub-html="<?php echo $imageDescription; ?>"
                             data-pinterest-text="Work by Forge Robinson" data-tweet-text="Work by Forge Robinson"
