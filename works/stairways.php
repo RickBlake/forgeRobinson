@@ -19,8 +19,8 @@
 
 <body>
 
-    <?php include '../../header.php';?>
-    <?php include '../../driveAuth.php';?>
+    <?php include '../header.php';?>
+    <?php include '../driveAuth.php';?>
 
     <div class="main wrapper clearfix">
         <div id="gallery">

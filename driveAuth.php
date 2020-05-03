@@ -1,6 +1,6 @@
 <?php 
 
-require_once '../../vendor/autoload.php';
+require_once '../vendor/autoload.php';
 
 use Google\Auth\ApplicationDefaultCredentials;
 use GuzzleHttp\Client;
@@ -11,7 +11,7 @@ use Google\Photos\Library\V1\PhotosLibraryClient;
 use Google\Photos\Library\V1\PhotosLibraryResourceFactory;
 
 // specify the path to your application credentials
-putenv('GOOGLE_APPLICATION_CREDENTIALS=../../gapi-creds.json');
+putenv('GOOGLE_APPLICATION_CREDENTIALS=../gapi-creds.json');
 
 // define the scopes for your API call
 $scopes = ['https://www.googleapis.com/auth/drive'];

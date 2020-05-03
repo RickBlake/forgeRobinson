@@ -33,7 +33,7 @@
                             <div id="gallery">
 
                                 <div class="gallery-item">
-                                    <a href="/works/entrances/" class="image-container">
+                                    <a href="/works/entrances.php" class="image-container">
                                         <img src="/img/ENTRANCES.webp">
                                         <div class="en-desc">ENTRANCES</div>
                                         <div class="fr-desc">ENTREES</div>
@@ -41,7 +41,7 @@
                                 </div>
 
                                 <div class="gallery-item">
-                                    <a href="/works/stairways/" class="image-container">
+                                    <a href="/works/stairways.php" class="image-container">
                                         <img src="/img/STAIRWAYS.webp">
                                         <div class="en-desc">STAIRWAYS</div>
                                         <div class="fr-desc">ESCALIERS</div>
