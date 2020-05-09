@@ -1,8 +1,6 @@
 <div class="header-container">
         <header class="wrapper clearfix">
-            <!-- <h1 class="title">dsdsdsd -->
-            <img id="logo" class="title" src="/img/forceRobinsonLogo.png"></img>
-            <!-- </h1> -->
+            <img id="logo" class="title" src="/img/logo.webp"></img>
             <nav>
                 <ul>
                     <li class="dropdown">

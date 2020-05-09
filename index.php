@@ -29,7 +29,7 @@
             <div class="main wrapper clearfix">
                 <div id="pageContent">
                     <div style="background-color: #BACFC9">
-                        <img class="coverPage" src="img/forceRobinsonCover.png"></img>
+                        <img class="coverPage" src="img/coverImage.webp"></img>
                     </div>
                                     
                     
