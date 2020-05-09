@@ -37,8 +37,10 @@
                             $responseFolder = $client->get('drive/v2/files?q=\'' . $folderId . '\'+in+parents');
                             $folderData = $responseFolder->getBody();
                             $driveFolder = json_decode($folderData, true);
+                            $images = $driveFolder['items'];
+                            usort($images, 'cmp'); 
 
-                            foreach ($driveFolder['items'] as $imageFile) {
+                            foreach ($images as $imageFile) {
                                 $imagePath = "https://drive.google.com/uc?id=" . $imageFile['id'];
                                 $imageDescription = str_replace('"', '\'', $imageFile['description']) . " <br/>©SIMON ROBINSON " . date("Y") . " ALL RIGHTS RESERVED";
                             
