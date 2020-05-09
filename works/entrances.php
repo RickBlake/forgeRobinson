@@ -42,7 +42,7 @@
 
                             foreach ($images as $imageFile) {
                                 $imagePath = "https://drive.google.com/uc?id=" . $imageFile['id'];
-                                $imageDescription = str_replace('"', '\'', $imageFile['description']) . " <br/>©SIMON ROBINSON " . date("Y") . " ALL RIGHTS RESERVED";
+                                $imageDescription = str_replace('"', '\'', $imageFile['description']) . " <br/><small>&copy; Simon Robinson " . date("Y") . " All rights reserved</small>";
                             
                         ?>
                         <div class="gallery-item" data-src="<?php echo $imagePath; ?>"
