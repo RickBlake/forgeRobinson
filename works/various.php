@@ -40,7 +40,7 @@
 
                             foreach ($driveFolder['items'] as $imageFile) {
                                 $imagePath = "https://drive.google.com/uc?id=" . $imageFile['id'];
-                                $imageDescription = str_replace($imageFile['description'], '"', '\'') . " <br/>©SIMON ROBINSON " . date("Y") . " ALL RIGHTS RESERVED";
+                                $imageDescription = str_replace('"', '\'', $imageFile['description']) . " <br/>©SIMON ROBINSON " . date("Y") . " ALL RIGHTS RESERVED";
                             
                         ?>
 
