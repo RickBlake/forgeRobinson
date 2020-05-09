@@ -29,7 +29,6 @@ hr {
 audio,
 canvas,
 iframe,
-img,
 svg,
 video {
     vertical-align: middle;
@@ -230,41 +229,20 @@ h1 {
     padding-bottom: 20px;
 }
 
-#gallery {
-    display: -ms-flexbox; /* IE10 */
-    display: flex;
-    -ms-flex-wrap: wrap; /* IE10 */
-    flex-wrap: wrap;
-    padding-top: 10px;
-}
-
 .gallery-item {
-    -ms-flex: 100%;
-    flex: 100%;
-    max-width: 100%;
-    padding-left: 0px;
-    padding-bottom: 40px;
-}
-
-.gallery-item img:hover {
-    opacity: 0.5;
-}
-
-.gallery-item img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
+    float:left;
     position: relative;
-}
+    width: 30%;
+    padding-bottom : 30%; /* = width for a 1:1 aspect ratio */
+    margin:1.66%;
+    background-color:#1E1E1E;
+    overflow:hidden;
 
-.image-container {
-    position: relative;
-    text-align: center;
-    color: white; 
-    font-size: large;
-}
+    background-position:center center;
+    background-repeat:no-repeat;
+    background-size:cover; /* you change this to "contain" if you don't want the images to be cropped */
+    color:#fff;
 
-.gallery-item img {
     box-shadow:
     0 2.8px 2.2px rgba(0, 0, 0, 0.034),
     0 6.7px 5.3px rgba(0, 0, 0, 0.048),
@@ -274,6 +252,24 @@ h1 {
     0 100px 80px rgba(0, 0, 0, 0.12);
 
     border-radius: 5px;
+}
+
+.content {
+    position:absolute;
+    height:90%; 
+    width:90%; 
+    padding: 5%;
+}
+
+.gallery-item:hover {
+    opacity: 0.5;
+}
+
+.image-container {
+    position: relative;
+    text-align: center;
+    color: white; 
+    font-size: large;
 }
 
 .en-desc {
@@ -456,14 +452,6 @@ footer p {
         float: right;
         width: 45%;
     }
-
-    .gallery-item {
-        -ms-flex: 42%;
-        flex: 42%;
-        max-width: 42%;
-        padding-left: 50px;
-        padding-bottom: 40px;
-    }
       
 }
 
@@ -478,13 +466,7 @@ footer p {
         margin: 0 auto;
     }
 
-    .gallery-item {
-        -ms-flex: 27%;
-        flex: 27%;
-        max-width: 27%;
-        padding-left: 60px;
-        padding-bottom: 40px;
-    }
+
 }
 
 /* ==========================================================================
@@ -577,13 +559,8 @@ footer p {
         display: table-header-group;
     }
 
-    tr,
-    img {
+    tr{
         page-break-inside: avoid;
-    }
-
-    img {
-        max-width: 100% !important;
     }
 
     p,

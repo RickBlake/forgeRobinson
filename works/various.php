@@ -20,7 +20,6 @@
 <body>
 
     <?php include '../header.php';?>
-    <?php include '../driveAuth.php';?>
 
     <div class="main wrapper clearfix">
         <div id="gallery">
@@ -31,31 +30,8 @@
                 <div class="main wrapper clearfix">
                     <div id="gallery">
 
-                        <?php 
-                         
-                            $folderId = '1AUCamWVptb1LiRp9jL2iemi9HjILaJBP';
-                            $responseFolder = $client->get('drive/v2/files?q=\'' . $folderId . '\'+in+parents');
-                            $folderData = $responseFolder->getBody();
-                            $driveFolder = json_decode($folderData, true);
-                            $images = $driveFolder['items'];
-                            usort($images, 'cmp'); 
-
-                            foreach ($images as $imageFile) {
-                                $imagePath = "https://drive.google.com/uc?id=" . $imageFile['id'];
-                                $imageDescription = str_replace('"', '\'', $imageFile['description']) . " <br/><small>&copy; Simon Robinson " . date("Y") . " All rights reserved</small>";
-                            
-                        ?>
-
-                        <div class="gallery-item" data-src="<?php echo $imagePath; ?>"
-                            data-sub-html="<?php echo $imageDescription; ?>"
-                            data-pinterest-text="Work by Forge Robinson" data-tweet-text="Work by Forge Robinson"
-                            data-facebook-text="Work by Forge Robinson">
-                            <img src="/img/loading.gif" data-src="<?php echo $imagePath; ?>" />
-                        </div>
-
-                        <?php 
-                            } 
-                        ?>
+                        <?php $folderId = '1AUCamWVptb1LiRp9jL2iemi9HjILaJBP'; ?>
+                        <?php include '../galleryGenerator.php';?>
                     </div>
                 </div>
             </div>

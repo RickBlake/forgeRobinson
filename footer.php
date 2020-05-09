@@ -1,7 +1,7 @@
 <div class="footer-container">
         <footer>
             <div class="wrapper">
-                <p>©SIMON ROBINSON <?php echo date("Y");?> ALL RIGHTS RESERVED</p>
+                <p><small>© Simon Robinson <?php echo date("Y");?> All rights reserved</small></p>
             </div>    
         </div>
         </footer>

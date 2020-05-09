@@ -32,77 +32,86 @@
                         <div class="main wrapper clearfix">
                             <div id="gallery">
 
-                                <div class="gallery-item">
-                                    <a href="/works/entrances.php" class="image-container">
-                                        <img src="/img/ENTRANCES.webp">
-                                        <div class="en-desc">ENTRANCES</div>
-                                        <div class="fr-desc">ENTREES</div>
-                                    </a>
-                                </div>
+                                <a class="gallery-item" 
+                                    href="/works/entrances.php"
+                                    style="display:block; background-image: url('/img/entrances.webp')">
+                                    <div class="content">
+                                        ENTRANCES </br>
+                                        ENTREES
+                                    </div>
+                                </a>
 
-                                <div class="gallery-item">
-                                    <a href="/works/stairways.php" class="image-container">
-                                        <img src="/img/STAIRWAYS.webp">
-                                        <div class="en-desc">STAIRWAYS</div>
-                                        <div class="fr-desc">ESCALIERS</div>
-                                    </a>
-                                </div>
+                                <a class="gallery-item" 
+                                    href="/works/stairways.php"
+                                    style="display:block; background-image: url('/img/stairways.webp')">
+                                    <div class="content">
+                                        STAIRWAYS </br>
+                                        ESCALIERS
+                                    </div>
+                                </a>
 
-                                <div class="gallery-item">
-                                    <a href="/works/grilles.php" class="image-container">
-                                        <img src="/img/GRILLES.webp">
-                                        <div class="en-desc">GRILLES</div>
-                                        <div class="fr-desc">GRILLES</div>
-                                    </a>
-                                </div>
+                                <a class="gallery-item" 
+                                    href="/works/grilles.php"
+                                    style="display:block; background-image: url('/img/grilles.webp')">
+                                    <div class="content">
+                                        GRILLES </br>
+                                        GRILLES
+                                    </div>
+                                </a>
 
-                                <div class="gallery-item">
-                                    <a href="/works/lighting.php" class="image-container">
-                                        <img src="/img/LIGHTING.webp">
-                                        <div class="en-desc">LIGHTING</div>
-                                        <div class="fr-desc">ECLAIRAGE</div>
-                                    </a>
-                                </div>
+                                <a class="gallery-item" 
+                                    href="/works/lighting.php"
+                                    style="display:block; background-image: url('/img/lighting.webp')">
+                                    <div class="content">
+                                        LIGHTING </br>
+                                        ECLAIRAGE
+                                    </div>
+                                </a>
 
-                                <div class="gallery-item">
-                                <a href="/works/sculpture.php" class="image-container">
-                                        <img src="/img/SCULPTURE.webp">
-                                        <div class="en-desc">SCULPTURE</div>
-                                        <div class="fr-desc">SCULPTURE</div>
-                                    </a>
-                                </div>
+                                <a class="gallery-item" 
+                                    href="/works/sculpture.php"
+                                    style="display:block; background-image: url('/img/sculpture.webp')">
+                                    <div class="content">
+                                        SCULPTURE </br>
+                                        SCULPTURE
+                                    </div>
+                                </a>
 
-                                <div class="gallery-item">
-                                <a href="/works/garden.php" class="image-container">
-                                        <img src="/img/GARDEN.webp">
-                                        <div class="en-desc">GARDEN</div>
-                                        <div class="fr-desc">JARDIN</div>
-                                    </a>
-                                </div>
+                                <a class="gallery-item" 
+                                    href="/works/garden.php"
+                                    style="display:block; background-image: url('/img/garden.webp')">
+                                    <div class="content">
+                                        GARDEN </br>
+                                        JARDIN
+                                    </div>
+                                </a>
 
-                                <div class="gallery-item">
-                                    <a href="/works/furniture.php" class="image-container">
-                                        <img src="/img/FURNITURE.webp">
-                                        <div class="en-desc">FURNITURE</div>
-                                        <div class="fr-desc">MEUBLES</div>
-                                    </a>
-                                </div>
+                                <a class="gallery-item" 
+                                    href="/works/furniture.php"
+                                    style="display:block; background-image: url('/img/furniture.webp')">
+                                    <div class="content">
+                                        FURNITURE </br>
+                                        MEUBLES
+                                    </div>
+                                </a>
 
-                                <div class="gallery-item">
-                                    <a href="/works/churches.php" class="image-container">
-                                        <img src="/img/CHURCHES.webp">
-                                        <div class="en-desc">CHURCHES</div>
-                                        <div class="fr-desc">EGLISES</div>
-                                    </a>
-                                </div>
+                                <a class="gallery-item" 
+                                    href="/works/churches.php"
+                                    style="display:block; background-image: url('/img/churches.webp')">
+                                    <div class="content">
+                                        CHURCHES </br>
+                                        EGLISES
+                                    </div>
+                                </a>
 
-                                <div class="gallery-item">
-                                    <a href="/works/various.php" class="image-container">
-                                        <img src="/img/VARIOUS.webp">
-                                        <div class="en-desc">VARIOUS</div>
-                                        <div class="fr-desc">DIVERSES</div>
-                                    </a>
-                                </div>
+                                <a class="gallery-item" 
+                                    href="/works/various.php"
+                                    style="display:block; background-image: url('/img/various.webp')">
+                                    <div class="content">
+                                        VARIOUS </br>
+                                        DIVERSES
+                                    </div>
+                                </a>                           
 
                             </div>
                         </div>
