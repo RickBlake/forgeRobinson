@@ -5,7 +5,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>ENTRANCES / ENTREES</title>
+    <title>VARIOUS / DIVERSES</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
@@ -26,14 +26,14 @@
         <div id="gallery">
             <div>
                 <div class="galleryHeader">
-                    <h1>ENTRANCES / ENTREES</h1>
+                    <h1>VARIOUS / DIVERSES</h1>
                 </div>
                 <div class="main wrapper clearfix">
                     <div id="gallery">
 
                         <?php 
                          
-                            $folderId = '1L58e6kMIxZbusk_tpb4HnzJklpz6wTaj';
+                            $folderId = '1AUCamWVptb1LiRp9jL2iemi9HjILaJBP';
                             $responseFolder = $client->get('drive/v2/files?q=\'' . $folderId . '\'+in+parents');
                             $folderData = $responseFolder->getBody();
                             $driveFolder = json_decode($folderData, true);
@@ -43,11 +43,12 @@
                                 $imageDescription = str_replace($imageFile['description'], '"', '\'') . " <br/>©SIMON ROBINSON " . date("Y") . " ALL RIGHTS RESERVED";
                             
                         ?>
+
                         <div class="gallery-item" data-src="<?php echo $imagePath; ?>"
                             data-sub-html="<?php echo $imageDescription; ?>"
                             data-pinterest-text="Work by Forge Robinson" data-tweet-text="Work by Forge Robinson"
                             data-facebook-text="Work by Forge Robinson">
-                            <img src="/img/loading.gif" data-src="<?php echo $imagePath; ?>"/>
+                            <img src="/img/loading.gif" data-src="<?php echo $imagePath; ?>" />
                         </div>
 
                         <?php 

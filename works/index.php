@@ -49,7 +49,7 @@
                                 </div>
 
                                 <div class="gallery-item">
-                                    <a target="_blank" href="" class="dynamicLoad image-container">
+                                    <a href="/works/grilles.php" class="image-container">
                                         <img src="/img/GRILLES.webp">
                                         <div class="en-desc">GRILLES</div>
                                         <div class="fr-desc">GRILLES</div>
@@ -57,7 +57,7 @@
                                 </div>
 
                                 <div class="gallery-item">
-                                    <a target="_blank" href="" class="dynamicLoad image-container">
+                                    <a href="/works/lighting.php" class="image-container">
                                         <img src="/img/LIGHTING.webp">
                                         <div class="en-desc">LIGHTING</div>
                                         <div class="fr-desc">ECLAIRAGE</div>
@@ -65,7 +65,7 @@
                                 </div>
 
                                 <div class="gallery-item">
-                                    <a target="_blank" href="" class="dynamicLoad image-container">
+                                <a href="/works/sculpture.php" class="image-container">
                                         <img src="/img/SCULPTURE.webp">
                                         <div class="en-desc">SCULPTURE</div>
                                         <div class="fr-desc">SCULPTURE</div>
@@ -73,7 +73,7 @@
                                 </div>
 
                                 <div class="gallery-item">
-                                    <a target="_blank" href="" class="dynamicLoad image-container">
+                                <a href="/works/garden.php" class="image-container">
                                         <img src="/img/GARDEN.webp">
                                         <div class="en-desc">GARDEN</div>
                                         <div class="fr-desc">JARDIN</div>
@@ -81,7 +81,7 @@
                                 </div>
 
                                 <div class="gallery-item">
-                                    <a target="_blank" href="" class="dynamicLoad image-container">
+                                    <a href="/works/furniture.php" class="image-container">
                                         <img src="/img/FURNITURE.webp">
                                         <div class="en-desc">FURNITURE</div>
                                         <div class="fr-desc">MEUBLES</div>
@@ -89,7 +89,7 @@
                                 </div>
 
                                 <div class="gallery-item">
-                                    <a target="_blank" href="" class="dynamicLoad image-container">
+                                    <a href="/works/churches.php" class="image-container">
                                         <img src="/img/CHURCHES.webp">
                                         <div class="en-desc">CHURCHES</div>
                                         <div class="fr-desc">EGLISES</div>
@@ -97,7 +97,7 @@
                                 </div>
 
                                 <div class="gallery-item">
-                                    <a target="_blank" href="" class="dynamicLoad image-container">
+                                    <a href="/works/various.php" class="image-container">
                                         <img src="/img/VARIOUS.webp">
                                         <div class="en-desc">VARIOUS</div>
                                         <div class="fr-desc">DIVERSES</div>

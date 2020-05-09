@@ -5,7 +5,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>ENTRANCES / ENTREES</title>
+    <title>SCULPTURE / SCULPTURE</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
@@ -26,21 +26,21 @@
         <div id="gallery">
             <div>
                 <div class="galleryHeader">
-                    <h1>ENTRANCES / ENTREES</h1>
+                    <h1>SCULPTURE / SCULPTURE</h1>
                 </div>
                 <div class="main wrapper clearfix">
                     <div id="gallery">
 
                         <?php 
                          
-                            $folderId = '1L58e6kMIxZbusk_tpb4HnzJklpz6wTaj';
+                            $folderId = '1WLJOBxGE3GESreNrbdphLiMM_VwzPaIT';
                             $responseFolder = $client->get('drive/v2/files?q=\'' . $folderId . '\'+in+parents');
                             $folderData = $responseFolder->getBody();
                             $driveFolder = json_decode($folderData, true);
 
                             foreach ($driveFolder['items'] as $imageFile) {
-                                $imagePath = "https://drive.google.com/uc?id=" . $imageFile['id'];
-                                $imageDescription = str_replace($imageFile['description'], '"', '\'') . " <br/>©SIMON ROBINSON " . date("Y") . " ALL RIGHTS RESERVED";
+                                $imagePath = 'https://drive.google.com/uc?id=' . $imageFile['id'];
+                                $imageDescription = str_replace($imageFile['description'], '"', '\'') . ' <br/>©SIMON ROBINSON ' . date("Y") . ' ALL RIGHTS RESERVED';
                             
                         ?>
                         <div class="gallery-item" data-src="<?php echo $imagePath; ?>"
