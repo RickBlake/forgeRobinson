@@ -37,7 +37,7 @@
                                     style="display:block; background-image: url('/img/entrances.webp')">
                                     <div class="content">
                                         ENTRANCES </br>
-                                        ENTREES
+                                        <i>ENTREES</i>
                                     </div>
                                 </a>
 
@@ -46,7 +46,7 @@
                                     style="display:block; background-image: url('/img/stairways.webp')">
                                     <div class="content">
                                         STAIRWAYS </br>
-                                        ESCALIERS
+                                        <i>ESCALIERS</i>
                                     </div>
                                 </a>
 
@@ -55,7 +55,7 @@
                                     style="display:block; background-image: url('/img/grilles.webp')">
                                     <div class="content">
                                         GRILLES </br>
-                                        GRILLES
+                                        <i>GRILLES</i>
                                     </div>
                                 </a>
 
@@ -64,7 +64,7 @@
                                     style="display:block; background-image: url('/img/lighting.webp')">
                                     <div class="content">
                                         LIGHTING </br>
-                                        ECLAIRAGE
+                                        <i>ECLAIRAGE</i>
                                     </div>
                                 </a>
 
@@ -73,7 +73,7 @@
                                     style="display:block; background-image: url('/img/sculpture.webp')">
                                     <div class="content">
                                         SCULPTURE </br>
-                                        SCULPTURE
+                                        <i>SCULPTURE</i>
                                     </div>
                                 </a>
 
@@ -82,7 +82,7 @@
                                     style="display:block; background-image: url('/img/garden.webp')">
                                     <div class="content">
                                         GARDEN </br>
-                                        JARDIN
+                                        <i>JARDIN</i>
                                     </div>
                                 </a>
 
@@ -91,7 +91,7 @@
                                     style="display:block; background-image: url('/img/furniture.webp')">
                                     <div class="content">
                                         FURNITURE </br>
-                                        MEUBLES
+                                        <i>MEUBLES</i>
                                     </div>
                                 </a>
 
@@ -100,7 +100,7 @@
                                     style="display:block; background-image: url('/img/churches.webp')">
                                     <div class="content">
                                         CHURCHES </br>
-                                        EGLISES
+                                        <i>EGLISES</i>
                                     </div>
                                 </a>
 
@@ -109,7 +109,7 @@
                                     style="display:block; background-image: url('/img/various.webp')">
                                     <div class="content">
                                         VARIOUS </br>
-                                        DIVERSES
+                                        <i>DIVERSES</i>
                                     </div>
                                 </a>                           
 

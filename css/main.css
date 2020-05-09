@@ -168,7 +168,7 @@ body {
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {display: block;}
 
-i {
+ul i {
     border: solid black;
     border-width: 0 3px 3px 0;
     display: inline-block;
@@ -256,13 +256,13 @@ h1 {
 
 .content {
     position:absolute;
-    height:90%; 
     width:90%; 
     padding: 5%;
+    background-color:rgba(0, 0, 0, 0.5);
 }
 
 .gallery-item:hover {
-    opacity: 0.5;
+    opacity: 0.6;
 }
 
 .image-container {
