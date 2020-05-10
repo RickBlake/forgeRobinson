@@ -1,7 +1,5 @@
 <?php
 
-    require_once '../vendor/autoload.php';
-
     use Google\Auth\ApplicationDefaultCredentials;
     use GuzzleHttp\Client;
     use GuzzleHttp\HandlerStack;
@@ -18,7 +16,11 @@
     }
 
     // specify the path to your application credentials
-    putenv('GOOGLE_APPLICATION_CREDENTIALS=../gapi-creds.json');
+    if (file_exists('../gapi-creds.json')) {
+        putenv('GOOGLE_APPLICATION_CREDENTIALS=../gapi-creds.json');
+    }else {
+        putenv('GOOGLE_APPLICATION_CREDENTIALS=gapi-creds.json');
+    }    
 
     // define the scopes for your API call
     $scopes = ['https://www.googleapis.com/auth/drive'];

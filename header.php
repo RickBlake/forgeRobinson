@@ -1,3 +1,9 @@
+<?php 
+
+    require_once 'vendor/autoload.php';
+
+?>
+
 <div class="header-container">
         <header class="wrapper clearfix">
             <img id="logo" class="title" src="/img/logo.webp"></img>
@@ -17,7 +23,7 @@
                         <a href="#">APPROACH <i class="arrow down"></i></a>
                         <div class="dropdown-content">
                             <a href="/process.php" class="navLink">PROCESS</a>
-                            <a href="/sketchbook/" class="navLink">SKETCHBOOK</a>
+                            <a href="/sketchbook.php" class="navLink">SKETCHBOOK</a>
                             <a href="/challenges.php" class="navLink">CHALLENGES</a>
                         </div>
                     </li>
