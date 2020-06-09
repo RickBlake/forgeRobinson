@@ -1,6 +1,7 @@
 {
     "require": {
         "google/auth": "^1.8",
-        "google/photos-library": "^1.5"
+        "google/photos-library": "^1.5",
+        "defuse/php-encryption": "^2.2"
     }
 }
