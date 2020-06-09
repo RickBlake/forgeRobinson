@@ -24,6 +24,5 @@ return array(
     'GPBMetadata\\Google\\Protobuf\\' => array($vendorDir . '/google/protobuf/src/GPBMetadata/Google/Protobuf'),
     'GPBMetadata\\Google\\' => array($vendorDir . '/google/common-protos/metadata', $vendorDir . '/google/gax/metadata'),
     'Firebase\\JWT\\' => array($vendorDir . '/firebase/php-jwt/src'),
-    'Defuse\\Crypto\\' => array($vendorDir . '/defuse/php-encryption/src'),
     '' => array($vendorDir . '/google/grpc-gcp/src/generated', $vendorDir . '/google/photos-library/src'),
 );
