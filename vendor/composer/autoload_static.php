@@ -4,14 +4,14 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInitfc2bfe5c123dc69d01e4d71c2949311d
+class ComposerStaticInitbe71d60fab40816fabe01641df063c35
 {
     public static $files = array (
         '7b11c4dc42b3b3023073cb14e519683c' => __DIR__ . '/..' . '/ralouphie/getallheaders/src/getallheaders.php',
-        'c964ee0ededf28c96ebd9db5099ef910' => __DIR__ . '/..' . '/guzzlehttp/promises/src/functions_include.php',
         'a0edc8309cc5e1d60e3047b5df6b7052' => __DIR__ . '/..' . '/guzzlehttp/psr7/src/functions_include.php',
-        '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
+        'c964ee0ededf28c96ebd9db5099ef910' => __DIR__ . '/..' . '/guzzlehttp/promises/src/functions_include.php',
         '25072dd6e2470089de65ae7bf11d3109' => __DIR__ . '/..' . '/symfony/polyfill-php72/bootstrap.php',
+        '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
         'f598d06aa772fa33d905e87be6398fb1' => __DIR__ . '/..' . '/symfony/polyfill-intl-idn/bootstrap.php',
         '37a3dc5111fe8f707ab4c132ef1dbc62' => __DIR__ . '/..' . '/guzzlehttp/guzzle/src/functions_include.php',
     );
@@ -134,16 +134,25 @@ class ComposerStaticInitfc2bfe5c123dc69d01e4d71c2949311d
     );
 
     public static $fallbackDirsPsr4 = array (
-        0 => __DIR__ . '/..' . '/google/grpc-gcp/src/generated',
-        1 => __DIR__ . '/..' . '/google/photos-library/src',
+        0 => __DIR__ . '/..' . '/google/photos-library/src',
+    );
+
+    public static $classMap = array (
+        'GPBMetadata\\GrpcGcp' => __DIR__ . '/..' . '/google/grpc-gcp/src/generated/GPBMetadata/GrpcGcp.php',
+        'Grpc\\Gcp\\AffinityConfig' => __DIR__ . '/..' . '/google/grpc-gcp/src/generated/Grpc/Gcp/AffinityConfig.php',
+        'Grpc\\Gcp\\AffinityConfig_Command' => __DIR__ . '/..' . '/google/grpc-gcp/src/generated/Grpc/Gcp/AffinityConfig_Command.php',
+        'Grpc\\Gcp\\ApiConfig' => __DIR__ . '/..' . '/google/grpc-gcp/src/generated/Grpc/Gcp/ApiConfig.php',
+        'Grpc\\Gcp\\ChannelPoolConfig' => __DIR__ . '/..' . '/google/grpc-gcp/src/generated/Grpc/Gcp/ChannelPoolConfig.php',
+        'Grpc\\Gcp\\MethodConfig' => __DIR__ . '/..' . '/google/grpc-gcp/src/generated/Grpc/Gcp/MethodConfig.php',
     );
 
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInitfc2bfe5c123dc69d01e4d71c2949311d::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInitfc2bfe5c123dc69d01e4d71c2949311d::$prefixDirsPsr4;
-            $loader->fallbackDirsPsr4 = ComposerStaticInitfc2bfe5c123dc69d01e4d71c2949311d::$fallbackDirsPsr4;
+            $loader->prefixLengthsPsr4 = ComposerStaticInitbe71d60fab40816fabe01641df063c35::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInitbe71d60fab40816fabe01641df063c35::$prefixDirsPsr4;
+            $loader->fallbackDirsPsr4 = ComposerStaticInitbe71d60fab40816fabe01641df063c35::$fallbackDirsPsr4;
+            $loader->classMap = ComposerStaticInitbe71d60fab40816fabe01641df063c35::$classMap;
 
         }, null, ClassLoader::class);
     }

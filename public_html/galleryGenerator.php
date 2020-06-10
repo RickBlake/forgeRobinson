@@ -16,10 +16,10 @@
     }
 
     // specify the path to your application credentials
-    if (file_exists('../gapi-creds.json')) {
-        putenv('GOOGLE_APPLICATION_CREDENTIALS=../gapi-creds.json');
+    if (file_exists('../../gapi-creds.json')) {
+        putenv('GOOGLE_APPLICATION_CREDENTIALS=../../gapi-creds.json');
     }else {
-        putenv('GOOGLE_APPLICATION_CREDENTIALS=gapi-creds.json');
+        putenv('GOOGLE_APPLICATION_CREDENTIALS=../gapi-creds.json');
     }    
 
     // define the scopes for your API call

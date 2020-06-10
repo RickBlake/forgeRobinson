@@ -1,6 +1,12 @@
 <?php 
 
-    require_once 'vendor/autoload.php';
+    $path;
+    if (file_exists('../vendor/autoload.php')) {
+        $path = '../vendor/autoload.php';
+    } else {
+        $path = '../../vendor/autoload.php';
+    }
+    require_once $path;
 
 ?>
 
