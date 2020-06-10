@@ -8,7 +8,7 @@
     <title>PRESS</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    
+
     <link rel="icon" href="img/favicon.png">
 
     <link rel="stylesheet" href="css/normalize.min.css">
@@ -28,28 +28,39 @@
     <div class="panoramic">
         <img src="img/press.webp"></img>
     </div>
-    
+
     <div class="main-container">
         <div>
-            <div class="main wrapper clearfix"> 
+            <div class="main wrapper clearfix">
                 <div id="pageContent">
 
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales urna non odio
-                            egestas tempor. Nunc
-                            vel vehicula ante. Etiam bibendum iaculis libero, eget molestie nisl pharetra in. In semper
-                            consequat est,
-                            eu porta velit mollis nec. Curabitur posuere enim eget turpis feugiat tempor. Etiam
-                            ullamcorper lorem
-                            dapibus velit suscipit ultrices.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales urna non odio
+                        egestas tempor. Nunc
+                        vel vehicula ante. Etiam bibendum iaculis libero, eget molestie nisl pharetra in. In semper
+                        consequat est,
+                        eu porta velit mollis nec. Curabitur posuere enim eget turpis feugiat tempor. Etiam
+                        ullamcorper lorem
+                        dapibus velit suscipit ultrices.</p>
 
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales urna non odio
-                            egestas tempor. Nunc
-                            vel vehicula ante. Etiam bibendum iaculis libero, eget molestie nisl pharetra in. In semper
-                            consequat est,
-                            eu porta velit mollis nec. Curabitur posuere enim eget turpis feugiat tempor. Etiam
-                            ullamcorper lorem
-                            dapibus velit suscipit ultrices.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales urna non odio
+                        egestas tempor. Nunc
+                        vel vehicula ante. Etiam bibendum iaculis libero, eget molestie nisl pharetra in. In semper
+                        consequat est,
+                        eu porta velit mollis nec. Curabitur posuere enim eget turpis feugiat tempor. Etiam
+                        ullamcorper lorem
+                        dapibus velit suscipit ultrices.</p>
 
+                    <div class="videoWrapper">    
+
+                        <iframe src="https://www.youtube.com/embed/5RXvZj2xrwc" frameborder="0"
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+
+                    <div class="videoWrapper">
+
+                        <iframe frameborder="0" src="https://www.dailymotion.com/embed/video/x7smgik" allowfullscreen allow="autoplay"></iframe>
+                    </div>
 
                 </div>
             </div>
