@@ -62,10 +62,10 @@
                         <figure>
                             <img src="img/processLeft.webp" width="100%"></img>
                             <figcaption>
-                                Design proposal for gates with spiritual theme of peace conquering war.<br/>
-                                Proposition de dessin avec pour thème spirituel la paix conquérant la guerre.<br/>
-                                <br/>
-                                Design proposal for outdoor theatre sculptural lighting supports in inox.<br/>
+                                Design proposal for gates with spiritual theme of peace conquering war.<br />
+                                Proposition de dessin avec pour thème spirituel la paix conquérant la guerre.<br />
+                                <br />
+                                Design proposal for outdoor theatre sculptural lighting supports in inox.<br />
                                 Proposition de dessin pour un théâtre de plein air avec supports d’éclairage
                                 sculpturaux.
                             </figcaption>
@@ -75,53 +75,68 @@
                             From the outset there is a total commitment of dialogue between ourselves and the clients,
                             architect or contractor. In certain cases, there is a budget to work within, but invariably
                             the majority of commissions are negotiated through compromise or agreement with the design.
-
+                        </p>
+                        <p>
                             Each commission is designed with either a specific client request or a complete free rein.
                             Designs are always discussed with the client to explain the overall form and certain
                             details, plus structural integrity and approximate construction time.
-
+                        </p>
+                        <p>
                             Certainly the customer may opt for a piece in mild steel because of lower initial cost in
                             materials, and work time, but life expectancy, even with added cost of rust prevention by
                             galvanizing and paint, is still far less than stainless steel.
-
+                        </p>
+                        <p>
                             If the work is in stainless steel, once it is cleaned, passivated and polished, either by
                             mechanical or electro-polishing processes, it has no need for further maintenance, with the
                             added bonus of its reflective quality of echoing its surrounding colors.
-
+                        </p>
+                        <p>
                             To form many of the shapes within each work requires heating to a bright yellow and forging
                             with the use of hand hammers and power hammers, stainless steel requiring a longer heat time
                             and far greater force to work than mild steel.
-
+                        </p>
+                        <p>
                             Other processes include cold bending of long curves, cutting and welding and finishing by
                             grinding, sanding and polishing. On completion all work is delivered and installed, either
                             by us or by a contractor overseen on site by us.
-
+                        </p>
+                        <p>
                             Payments are usually made as a deposit, mid or interim payments and final balance after
                             installation. On occasion, depending on the size of work, either a deposit and final payment
                             are made or one payment on completion. Design fees are charged for projects taking longer
                             than three weeks.
                         </p>
-                        <hr />
-
                         <p>
-
+                            <a href="/pdf/nehou-gate.pdf" target="_blank">Design proposal for gates with spiritual theme
+                                of peace conquering war.</a>
+                        </p>
+                        <p>
+                            <a href="/pdf/nehou-gate.pdf" target="_blank">Proposition de dessin avec pour thème
+                                spirituel la paix conquérant la guerre.</a>
+                        </p>
+                        <p>
                             Dès le début, il y a un engagement et un dialogue entre nous et le client, architecte ou
                             contractant. Dans certains cas, il faut travailler avec un budget, mais les commissions sont
                             invariablement négociés par compromis ou par accord avec le dessin.
-
+                        </p>
+                        <p>
                             Chaque commission est dessinée librement ou avec la demande spécifique du client. Les
                             dessins sont toujours sujets à une discussion avec le client, pour expliquer la forme
                             générale et certains détails, ainsi que l'intégralité structurelle et une durée
                             approximative de la construction.
-
+                        </p>
+                        <p>
                             Bien sûr, le client peut demander pour une oeuvre en acier dû au coût initial plus bas et au
                             temps de travail. Mais en revanche, l'espérance de vie, même avec le coût de protection
                             antirouille par galvanisation et par peinture, reste beaucoup moins longue que l'inox.
-
+                        </p>
+                        <p>
                             Si l'oeuvre est en inox, une fois qu'elle est nettoyée, passivée et polie, soit par action
                             mécanique ou par électro-polissage, n'a plus besoin de maintien. La qualité réfléchissante
                             et l'écho des couleurs aux alentours constituent un élément bonus.
-
+                        </p>
+                        <p>
                             Une grandie partie des formes dans une oeuvre doivent être chauffées jusque'à un jaune
                             clair, puis forgées avec des marteaux, suivi du marteau-pilon: l'inox demande un temps de
                             chauffage plus long que l'acier doux. Nous utilisons également d'autres processus, dont la
@@ -129,12 +144,19 @@
                             polissage.
                             Une fois la réalisation achevée, toutes oeuvres sont livrés et installés, soit par nous ou
                             par un contractant surveillé par nous sur chantier.
-
+                        </p>
+                        <p>
                             Les paiements sont souvent faits sous forme de dépôt, avec les paiements mi-termes et
                             intérimaires suite à l'installation. Parfois, en fonction de l'ampleur de l'oeuvre, soit un
                             dépôt ou un paiement final sont faits, soit un paiement lors de l'achèvement. Les frais de
                             dessin sont demandés pour des projets de plus de trois semaines.
                         </p>
+                    </div>
+
+                    <div class="videoWrapper">    
+                        <iframe src="https://www.youtube.com/embed/0HKYakzpkmI" frameborder="0"
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
                     </div>
 
                 </div>

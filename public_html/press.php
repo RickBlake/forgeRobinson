@@ -34,21 +34,27 @@
             <div class="main wrapper clearfix">
                 <div id="pageContent">
 
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales urna non odio
-                        egestas tempor. Nunc
-                        vel vehicula ante. Etiam bibendum iaculis libero, eget molestie nisl pharetra in. In semper
-                        consequat est,
-                        eu porta velit mollis nec. Curabitur posuere enim eget turpis feugiat tempor. Etiam
-                        ullamcorper lorem
-                        dapibus velit suscipit ultrices.</p>
+                    <p>Article -  L'Orne Combattante 04/06/2009</p>
+                    <img src="/img/press1.png" width="100%"/>
 
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales urna non odio
-                        egestas tempor. Nunc
-                        vel vehicula ante. Etiam bibendum iaculis libero, eget molestie nisl pharetra in. In semper
-                        consequat est,
-                        eu porta velit mollis nec. Curabitur posuere enim eget turpis feugiat tempor. Etiam
-                        ullamcorper lorem
-                        dapibus velit suscipit ultrices.</p>
+                    <p>Article -  Ouest France 23/09/2016</p>
+                    <img src="/img/press2.png" width="100%"/>
+
+                    <p>Article - L'Orne Combattane 26/05/2020</p>
+                    <img src="/img/press3.png" width="100%"/>
+
+                    <p>
+                        <a href="/pdf/Anvils-Ring-1.pdf" target="_blank">Article - Anvils Ring. Summer 2013 Edition.</a><br/>
+                        <a href="/pdf/Anvils-Ring-1.pdf" target="_blank">Article paru dans Anvils Ring, numéro d'été 2013.</a></p>
+                    </p>
+                    <p>
+                        <a href="/pdf/How-Design-Happens-1.pdf" target="_blank">How Design Happens Part One.</a><br/>
+                        <a href="/pdf/How-Design-Happens-1.pdf" target="_blank">Le Processus du Dessin, première partie.</a>
+                    </p>
+                    <p>
+                        <a href="/pdf/How-Design-Happens-2.pdf" target="_blank">How Design Happens Part Two.</a><br/>
+                        <a href="/pdf/How-Design-Happens-2.pdf" target="_blank">Le Processus du Dessin, deuxième partie.</a>
+                    </p>
 
                     <div class="videoWrapper">    
 
