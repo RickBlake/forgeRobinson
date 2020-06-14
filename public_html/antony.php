@@ -32,7 +32,7 @@
 
                     <article>
                         <section>
-                            <img src="img/antony.webp" width="100%"></img>
+                            <img class="profile" src="img/antony.webp" width="100%"></img>
                         </section>
                     </article>
 
