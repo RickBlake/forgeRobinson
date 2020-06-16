@@ -421,8 +421,22 @@ footer p {
     background: transparent;
     box-shadow: 3px 3px #415951;
   }
+
+  .info {
+      color: crimson;
+  }
+
+  .messageSent {
+    background-color: #767676;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: not-allowed;
+    width: 100%;
+  }
   
-  input[type=submit] {
+  .submitButton {
     background-color: #415951;
     color: white;
     padding: 12px 20px;
@@ -432,7 +446,7 @@ footer p {
     width: 100%;
   }
   
-  input[type=submit]:hover {
+  .submitButton:hover {
     background-color: #415951;
   }
 

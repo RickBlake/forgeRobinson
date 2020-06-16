@@ -82,14 +82,18 @@
                                     </tr>
                                     <tr>
                                         <td colspan="2">
-                                            <button name="submit" class="btnAction" onClick="sendContact();">Send</button>
+                                            <span id="validation-info" class="info"></span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2">
+                                            <button id="submitBtn" class="submitButton" onClick="sendContact();">Send</button>
+                                            <button id="sentBtn" class="messageSent hidden">Message Sent</button>
                                         </td>
                                     </tr>
                                 </table>
                         </div>
                     </aside>
-
-
                 </div>
             </div>
         </div>
@@ -102,7 +106,7 @@
 <script>
     function sendContact() {
         var valid;	
-        valid = true; //validateContact();
+        valid = validateContact();
         if(valid) {
             jQuery.ajax({
                 url: "mail.php",
@@ -114,11 +118,66 @@
                 '&message='+$("#message").val(),
                 type: "POST",
                 success:function(data){
-                    $("#mail-status").html(data);
+                    $("#submitBtn").addClass('hidden');
+                    $("#sentBtn").removeClass('hidden');
                 },
                 error:function (){}
             });
         }
+    }
+
+    function validateContact() {
+        var valid = true;	
+        $("#validation-info").html("Please complete all your contact details.");
+
+        if(!$("#fname").val()) {
+            $("#fname").css('border-color','#DC143C');
+            valid = false;
+        }else{
+            $("#fname").css('border-color','#405951');
+        }
+
+        if(!$("#lname").val()) {
+            $("#lname").css('border-color','#DC143C');
+            valid = false;
+        }else{
+            $("#lname").css('border-color','#405951');
+        }
+
+        if(!$("#company").val()) {
+            $("#company").css('border-color','#DC143C');
+            valid = false;
+        }else{
+            $("#company").css('border-color','#405951');
+        }
+
+        if(!$("#email").val()) {
+            $("#email").css('border-color','#DC143C');
+            valid = false;
+        }else if(!$("#email").val().match(/^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/)) {
+            $("#validation-info").html("The email address you entered is not valid.");
+            $("#email").css('border-color','#DC143C');
+            valid = false;
+        }else{
+            $("#email").css('border-color','#405951');
+        }
+
+        if(!$("#subject").val()) {
+            $("#subject").css('border-color','#DC143C');
+            valid = false;
+        }else{
+            $("#subject").css('border-color','#405951');
+        }
+
+        if(!$("#message").val()) {
+            $("#message").css('border-color','#DC143C');
+            valid = false;
+        }else{
+            $("#message").css('border-color','#405951');
+        }
+
+        if(valid) $("#validation-info").html("");
+        return valid;
     }
 
 
