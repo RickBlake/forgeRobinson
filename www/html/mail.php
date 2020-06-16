@@ -2,9 +2,9 @@
   use PHPMailer\PHPMailer\PHPMailer;
   use PHPMailer\PHPMailer\Exception;
 
-  require '../vendor/PHPMailer/PHPMailer/src/Exception.php';
-  require '../vendor/PHPMailer/PHPMailer/src/PHPMailer.php';
-  require '../vendor/PHPMailer/PHPMailer/src/SMTP.php';
+  require '../vendor/phpmailer/phpmailer/src/Exception.php';
+  require '../vendor/phpmailer/phpmailer/src/PHPMailer.php';
+  require '../vendor/phpmailer/phpmailer/src/SMTP.php';
 
   $mail = new PHPMailer();
   $mail->IsSMTP();
@@ -12,10 +12,10 @@
   $mail->SMTPDebug  = 0;  
   $mail->SMTPAuth   = TRUE;
   $mail->SMTPSecure = "tls";
-  $mail->Port       = 587;
+  $mail->Port       = 25;
   $mail->Host       = "smtp.gmail.com";
   $mail->Username   = "forgerobinsoncontact@gmail.com";
-  $mail->Password   = "**********************";
+  $mail->Password   = "*****************";
 
   $fname = $_POST['fname'];
   $lname = $_POST['lname'];
