@@ -3,6 +3,7 @@
         "google/auth": "^1.8",
         "google/photos-library": "^1.5",
         "defuse/php-encryption": "^2.2",
-        "vlucas/phpdotenv": "^5.0"
+        "vlucas/phpdotenv": "^5.0",
+        "phpmailer/phpmailer": "^6.1"
     }
 }

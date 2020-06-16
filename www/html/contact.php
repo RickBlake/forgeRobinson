@@ -49,7 +49,6 @@
 
                     <aside>
                         <div class="contact-container">
-                            <form action="/action_page.php">
                                 <table>
                                     <tr>
                                         <td>
@@ -66,6 +65,11 @@
                                     </tr>
                                     <tr>
                                         <td colspan="2">
+                                            <input type="text" id="email" name="email" placeholder="EMAIL">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2">
                                             <input type="text" id="subject" name="subject"
                                                 placeholder="ENQUIRY SUBJECT">
                                         </td>
@@ -78,11 +82,10 @@
                                     </tr>
                                     <tr>
                                         <td colspan="2">
-                                            <input type="submit" class="button" value="SEND" />
+                                            <button name="submit" class="btnAction" onClick="sendContact();">Send</button>
                                         </td>
                                     </tr>
                                 </table>
-                            </form>
                         </div>
                     </aside>
 
@@ -95,5 +98,30 @@
     <?php include 'footer.php';?>
 
 </body>
+
+<script>
+    function sendContact() {
+        var valid;	
+        valid = true; //validateContact();
+        if(valid) {
+            jQuery.ajax({
+                url: "mail.php",
+                data:'fname='+$("#fname").val()+
+                '&lname='+$("#lname").val()+
+                '&email='+$("#email").val()+
+                '&company='+$("#company").val()+
+                '&subject='+$("#subject").val()+
+                '&message='+$("#message").val(),
+                type: "POST",
+                success:function(data){
+                    $("#mail-status").html(data);
+                },
+                error:function (){}
+            });
+        }
+    }
+
+
+</script>
 
 </html>
