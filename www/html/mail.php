@@ -14,8 +14,8 @@
   $mail->SMTPSecure = "tls";
   $mail->Port       = 587;
   $mail->Host       = "smtp.gmail.com";
-  $mail->Username   = "rickjarvisblake@gmail.com";
-  $mail->Password   = "******************";
+  $mail->Username   = "forgerobinsoncontact@gmail.com";
+  $mail->Password   = "***********";
 
   $fname = $_POST['fname'];
   $lname = $_POST['lname'];
