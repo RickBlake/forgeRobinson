@@ -422,6 +422,11 @@ footer p {
     box-shadow: 3px 3px #415951;
   }
 
+  input[type="text"]:disabled, textarea:disabled {
+    cursor: not-allowed;
+    background-color: lightgray;
+  }
+
   .info {
       color: crimson;
   }

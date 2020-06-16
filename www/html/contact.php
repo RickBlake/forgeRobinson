@@ -120,6 +120,12 @@
                 success:function(data){
                     $("#submitBtn").addClass('hidden');
                     $("#sentBtn").removeClass('hidden');
+                    $("#fname").prop('disabled', true);
+                    $("#lname").prop('disabled', true);
+                    $("#email").prop('disabled', true);
+                    $("#company").prop('disabled', true);
+                    $("#subject").prop('disabled', true);
+                    $("#message").prop('disabled', true);
                 },
                 error:function (){}
             });

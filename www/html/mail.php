@@ -15,7 +15,7 @@
   $mail->Port       = 25;
   $mail->Host       = "smtp.gmail.com";
   $mail->Username   = "forgerobinsoncontact@gmail.com";
-  $mail->Password   = "*****************";
+  $mail->Password   = "*************";
 
   $fname = $_POST['fname'];
   $lname = $_POST['lname'];
