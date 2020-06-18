@@ -35,7 +35,7 @@
 
                                 <a class="gallery-item" 
                                     href="/works/entrances.php"
-                                    style="display:block; background-image: url('/img/entrances.webp')">
+                                    style="display:block; background-image: url('/img/entrances.jpg')">
                                     <div class="content">
                                         ENTRANCES </br>
                                         <i>ENTREES</i>
@@ -44,7 +44,7 @@
 
                                 <a class="gallery-item" 
                                     href="/works/stairways.php"
-                                    style="display:block; background-image: url('/img/stairways.webp')">
+                                    style="display:block; background-image: url('/img/stairways.jpg')">
                                     <div class="content">
                                         STAIRWAYS </br>
                                         <i>ESCALIERS</i>
@@ -53,7 +53,7 @@
 
                                 <a class="gallery-item" 
                                     href="/works/grilles.php"
-                                    style="display:block; background-image: url('/img/grilles.webp')">
+                                    style="display:block; background-image: url('/img/grilles.jpg')">
                                     <div class="content">
                                         GRILLES </br>
                                         <i>GRILLES</i>
@@ -62,7 +62,7 @@
 
                                 <a class="gallery-item" 
                                     href="/works/lighting.php"
-                                    style="display:block; background-image: url('/img/lighting.webp')">
+                                    style="display:block; background-image: url('/img/lighting.jpg')">
                                     <div class="content">
                                         LIGHTING </br>
                                         <i>ECLAIRAGE</i>
@@ -71,7 +71,7 @@
 
                                 <a class="gallery-item" 
                                     href="/works/sculpture.php"
-                                    style="display:block; background-image: url('/img/sculpture.webp')">
+                                    style="display:block; background-image: url('/img/sculpture.jpg')">
                                     <div class="content">
                                         SCULPTURE </br>
                                         <i>SCULPTURE</i>
@@ -80,7 +80,7 @@
 
                                 <a class="gallery-item" 
                                     href="/works/garden.php"
-                                    style="display:block; background-image: url('/img/garden.webp')">
+                                    style="display:block; background-image: url('/img/garden.jpg')">
                                     <div class="content">
                                         GARDEN </br>
                                         <i>JARDIN</i>
@@ -89,7 +89,7 @@
 
                                 <a class="gallery-item" 
                                     href="/works/furniture.php"
-                                    style="display:block; background-image: url('/img/furniture.webp')">
+                                    style="display:block; background-image: url('/img/furniture.jpg')">
                                     <div class="content">
                                         FURNITURE </br>
                                         <i>MEUBLES</i>
@@ -98,7 +98,7 @@
 
                                 <a class="gallery-item" 
                                     href="/works/churches.php"
-                                    style="display:block; background-image: url('/img/churches.webp')">
+                                    style="display:block; background-image: url('/img/churches.jpg')">
                                     <div class="content">
                                         CHURCHES </br>
                                         <i>EGLISES</i>
@@ -107,7 +107,7 @@
 
                                 <a class="gallery-item" 
                                     href="/works/various.php"
-                                    style="display:block; background-image: url('/img/various.webp')">
+                                    style="display:block; background-image: url('/img/various.jpg')">
                                     <div class="content">
                                         VARIOUS </br>
                                         <i>DIVERSES</i>

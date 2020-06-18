@@ -26,7 +26,7 @@
         <h1>PROCESS</h1>
     </div>
     <div class="panoramic">
-        <img src="img/process.webp"></img>
+        <img src="img/process.jpg"></img>
     </div>
 
     <div class="main-container">
@@ -60,7 +60,7 @@
                     <div class="justified">
 
                         <figure>
-                            <img src="img/processLeft.webp" width="100%"></img>
+                            <img src="img/processLeft.jpg" width="100%"></img>
                             <figcaption>
                                 Design proposal for gates with spiritual theme of peace conquering war.<br />
                                 Proposition de dessin avec pour thème spirituel la paix conquérant la guerre.<br />

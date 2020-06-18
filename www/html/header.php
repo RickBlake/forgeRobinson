@@ -12,7 +12,7 @@
 
 <div class="header-container">
         <header class="wrapper clearfix">
-            <img id="logo" class="title" src="/img/logo.webp"></img>
+            <img id="logo" class="title" src="/img/logo.jpg"></img>
             <nav>
                 <ul>
                     <li class="dropdown">

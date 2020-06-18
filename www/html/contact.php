@@ -43,7 +43,7 @@
                             <p>EMAIL: info@forgerobinson.com</p>
                         </section>
                         <section>
-                            <img class="profile" src="img/contact.webp" width="100%"></img>
+                            <img class="profile" src="img/contact.jpg" width="100%"></img>
                         </section>
                     </article>
 

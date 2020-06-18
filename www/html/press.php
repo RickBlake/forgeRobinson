@@ -26,7 +26,7 @@
         <h1>PRESS</h1>
     </div>
     <div class="panoramic">
-        <img src="img/press.webp"></img>
+        <img src="img/press.jpg"></img>
     </div>
 
     <div class="main-container">

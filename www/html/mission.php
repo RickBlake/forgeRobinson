@@ -34,7 +34,7 @@
                     <div class="justified">
 
                         <figure>
-                            <img src="img/mission.webp" width="100%"></img>
+                            <img src="img/mission.jpg" width="100%"></img>
                             <figcaption>
                                 Simon forging with Mateo C’ de Baca.<br/>
                                 Four day forging workshop at the Abbey of Regina Laudis, CT, USA. 11-17 August 2016

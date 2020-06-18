@@ -30,7 +30,7 @@
             <div class="main wrapper clearfix">
                 <div id="pageContent">
                     <div style="background-color: #BACFC9">
-                        <img class="coverPage" src="img/coverImage.webp"></img>
+                        <img class="coverPage" src="img/coverImage.jpg"></img>
                     </div>
                                     
                     

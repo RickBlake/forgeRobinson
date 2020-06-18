@@ -32,7 +32,7 @@
                     </div>
     <article>
         <section>
-            <img class="profile" src="img/simon.webp" width="100%"></img>
+            <img class="profile" src="img/simon.jpg" width="100%"></img>
         </section>
     </article>
 

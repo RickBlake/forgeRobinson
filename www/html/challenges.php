@@ -26,7 +26,7 @@
         <h1>CHALLENGES</h1>
     </div>
     <div class="panoramic">
-        <img src="img/challenges.webp"></img>
+        <img src="img/challenges.jpg"></img>
     </div>
     
     <div class="main-container">
