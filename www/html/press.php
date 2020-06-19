@@ -58,7 +58,7 @@
                         <a href="/pdf/How-Design-Happens-2.pdf" target="_blank">Le Processus du Dessin, deuxième partie.</a>
                     </p>
                     <br/>
-                    <h2>BBC Radio 4 broadcast</h2>
+                    <h2>BBC Radio 4 Broadcast</h2>
                     <audio controls="controls">
                         <source src="/audio/blacksmith-prod.mp3" type="audio/mpeg" />
                         Your browser does not support the audio element.
