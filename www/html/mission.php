@@ -37,10 +37,12 @@
                             <img src="img/mission.jpg" width="100%"></img>
                             <figcaption>
                                 Simon forging with Mateo C’ de Baca.<br/>
-                                Four day forging workshop at the Abbey of Regina Laudis, CT, USA. 11-17 August 2016
-                            <br/> 
+                                Four day forging workshop at the Abbey of Regina Laudis, CT, USA.<br/> 
+                                11-17 August 2016
+                            <br/><br/>
                                 Simon forge avec Mateo C’ de Baca.<br/>
-                                Stage de ferronnerie de 4 jours à l’abbaye de Regina Laudis, Connecticut (USA). 11-17 août 2016
+                                Stage de ferronnerie de 4 jours à l’abbaye de Regina Laudis, Connecticut (USA).<br/> 
+                                11-17 août 2016
                             </figcaption>
                         </figure>
 
