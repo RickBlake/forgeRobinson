@@ -44,13 +44,9 @@
                             </figcaption>
                         </figure>
 
-                        <p>
-                            <b>To enhance personal and public environments with unique creations in hand forged metals.</b>
-                        </p>
-                        <p>
-                            <b>Embellir les environnements publics et personnels avec des créations uniques en fer forgé à
-                                la main.</b>
-                        </p>
+                        <h3>To enhance personal and public environments with unique creations in hand forged metals.</h3>
+                        <h3>Embellir les environnements publics et personnels avec des créations uniques en fer forgé à
+                                la main.</h3>
                         <hr>
                         <p>
                             Internationally recognized as leading exponents in hand forging, forming stainless steel

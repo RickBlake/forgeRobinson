@@ -427,6 +427,14 @@ footer p {
     background-color: lightgray;
   }
 
+  .pdfLink a img{
+    vertical-align: middle;
+  }
+
+  .pdfIcon {
+      width: 64px;
+  }
+
   .info {
       color: crimson;
   }

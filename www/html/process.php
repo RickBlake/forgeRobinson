@@ -61,14 +61,6 @@
 
                         <figure>
                             <img src="img/processLeft.jpg" width="100%"></img>
-                            <figcaption>
-                                Design proposal for gates with spiritual theme of peace conquering war.<br />
-                                Proposition de dessin avec pour thème spirituel la paix conquérant la guerre.<br />
-                                <br />
-                                Design proposal for outdoor theatre sculptural lighting supports in inox.<br />
-                                Proposition de dessin pour un théâtre de plein air avec supports d’éclairage
-                                sculpturaux.
-                            </figcaption>
                         </figure>
 
                         <p>
@@ -107,12 +99,16 @@
                             are made or one payment on completion. Design fees are charged for projects taking longer
                             than three weeks.
                         </p>
-                        <p>
-                            <a href="/pdf/nehou-gate.pdf" target="_blank">Design proposal for gates with spiritual theme
+                        <p class="pdfLink">
+                            <a href="/pdf/nehou-gate.pdf" target="_blank">
+                                <img src="/img/pdf.png" class="pdfIcon"/>
+                                Design proposal for gates with spiritual theme
                                 of peace conquering war.</a>
                         </p>
-                        <p>
-                            <a href="/pdf/nehou-gate.pdf" target="_blank">Proposition de dessin avec pour thème
+                        <p class="pdfLink">
+                            <a href="/pdf/nehou-gate.pdf" target="_blank">
+                                <img src="/img/pdf.png" class="pdfIcon"/>
+                                Proposition de dessin avec pour thème
                                 spirituel la paix conquérant la guerre.</a>
                         </p>
                         <p>
