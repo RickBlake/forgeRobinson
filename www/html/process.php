@@ -100,16 +100,13 @@
                             than three weeks.
                         </p>
                         <p class="pdfLink">
-                            <a href="/pdf/nehou-gate.pdf" target="_blank">
-                                <img src="/img/pdf.png" class="pdfIcon"/>
-                                Design proposal for gates with spiritual theme
-                                of peace conquering war.</a>
-                        </p>
-                        <p class="pdfLink">
-                            <a href="/pdf/nehou-gate.pdf" target="_blank">
-                                <img src="/img/pdf.png" class="pdfIcon"/>
-                                Proposition de dessin avec pour thème
-                                spirituel la paix conquérant la guerre.</a>
+                            <table>
+                                <tr><td rowspan="2"><a href="/pdf/nehou-gate.pdf" target="_blank"><img src="/img/pdf.png" class="pdfIcon"/></a>
+                                </td><td><a href="/pdf/nehou-gate.pdf" target="_blank">Design proposal for gates with spiritual theme
+                                    of peace conquering war.</a></td></tr>
+                                <tr><td><a href="/pdf/nehou-gate.pdf" target="_blank">Proposition de dessin avec pour thème
+                                    spirituel la paix conquérant la guerre.</a></td></tr>
+                            </table>       
                         </p>
                         <p>
                             Dès le début, il y a un engagement et un dialogue entre nous et le client, architecte ou
@@ -148,6 +145,14 @@
                             dessin sont demandés pour des projets de plus de trois semaines.
                         </p>
                     </div>
+
+                    <p class="pdfLink">
+                        <table>
+                            <tr><td rowspan="2"><a href="/pdf/Theatre-Light-Holders.pdf" target="_blank"><img src="/img/pdf.png" class="pdfIcon"/></a>
+                            </td><td><a href="/pdf/Theatre-Light-Holders.pdf" target="_blank">Design proposal for outdoor theatre sculptural lighting supports in inox.</a></td></tr>
+                            <tr><td><a href="/pdf/Theatre-Light-Holders.pdf" target="_blank">Proposition de dessin pour un théâtre de plein air avec supports d’éclairage sculpturaux.</a></td></tr>
+                        </table>       
+                    </p>
 
                     <div class="videoWrapper">    
                         <iframe src="https://www.youtube.com/embed/0HKYakzpkmI" frameborder="0"

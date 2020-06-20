@@ -433,6 +433,7 @@ footer p {
 
   .pdfIcon {
       width: 64px;
+      padding-left: 20px;
   }
 
   .info {
