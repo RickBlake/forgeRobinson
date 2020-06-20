@@ -45,34 +45,34 @@
 
                     <br /><br />
                     <h2>The Anvil's Ring Features</h2>
+
                     <p class="pdfLink">
-                        <a href="/pdf/Anvils-Ring-1.pdf" target="_blank">
-                            <img src="/img/pdf.png" class="pdfIcon"/>
-                            Article - Anvils Ring. Summer 2013
-                            Edition.</a><br />
-                        <a href="/pdf/Anvils-Ring-1.pdf" target="_blank">
-                            <img src="/img/pdf.png" class="pdfIcon"/>
-                            Article paru dans Anvils Ring, numéro d'été
-                            2013.</a></p>
+                        <table>
+                            <tr><td rowspan="2"><a href="/pdf/Anvils-Ring-1.pdf" target="_blank"><img src="/img/pdf.png" class="pdfIcon"/></a>
+                            </td><td><a href="/pdf/Anvils-Ring-1.pdf" target="_blank">Article - Anvils Ring. Summer 2013
+                                Edition.</a></td></tr>
+                            <tr><td><a href="/pdf/Anvils-Ring-1.pdf" target="_blank">Article paru dans Anvils Ring, numéro d'été
+                                2013.</a></td></tr>
+                        </table>       
                     </p>
+
                     <p class="pdfLink">
-                        <a href="/pdf/How-Design-Happens-1.pdf" target="_blank">
-                            <img src="/img/pdf.png" class="pdfIcon"/>
-                            How Design Happens Part One.</a><br />
-                        <a href="/pdf/How-Design-Happens-1.pdf" target="_blank">
-                            <img src="/img/pdf.png" class="pdfIcon"/>
-                            Le Processus du Dessin, première
-                            partie.</a>
+                        <table>
+                            <tr><td rowspan="2"><a href="/pdf/How-Design-Happens-1.pdf" target="_blank"><img src="/img/pdf.png" class="pdfIcon"/></a>
+                            </td><td><a href="/pdf/How-Design-Happens-1.pdf" target="_blank">How Design Happens Part One.</a></td></tr>
+                            <tr><td><a href="/pdf/How-Design-Happens-1.pdf" target="_blank">Le Processus du Dessin, première partie.</a></td></tr>
+                        </table>       
                     </p>
+
                     <p class="pdfLink">
-                        <a href="/pdf/How-Design-Happens-2.pdf" target="_blank">
-                            <img src="/img/pdf.png" class="pdfIcon"/>
-                            How Design Happens Part Two.</a><br />
-                        <a href="/pdf/How-Design-Happens-2.pdf" target="_blank">
-                            <img src="/img/pdf.png" class="pdfIcon"/>
-                            Le Processus du Dessin, deuxième
-                            partie.</a>
+                        <table>
+                            <tr><td rowspan="2"><a href="/pdf/How-Design-Happens-2.pdf" target="_blank"><img src="/img/pdf.png" class="pdfIcon"/></a>
+                            </td><td><a href="/pdf/How-Design-Happens-2.pdf" target="_blank">How Design Happens Part Two.</a></td></tr>
+                            <tr><td><a href="/pdf/How-Design-Happens-2.pdf" target="_blank">Le Processus du Dessin, deuxième
+                                partie.</a></td></tr>
+                        </table>       
                     </p>
+
                     <br />
                     <h2>BBC Radio 4 Broadcast</h2>
                     <audio controls="controls">
