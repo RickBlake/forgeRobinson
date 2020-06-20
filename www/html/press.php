@@ -74,7 +74,10 @@
                     </p>
 
                     <br />
-                    <h2>BBC Radio 4 Broadcast</h2>
+                    <h2>BBC Broadcast, 29 January 2006</h2>
+                    <p> The history of Blacksmithing - not just any metal gates.</p>
+                    <h2>Diffusion de la BBC, 29 janvier 2006</h2> 
+                    <p>L'histoire de la ferronnerie - pas n'importe quel portail.</p>
                     <audio controls="controls">
                         <source src="/audio/blacksmith-prog.mp3" type="audio/mpeg" />
                         Your browser does not support the audio element.
