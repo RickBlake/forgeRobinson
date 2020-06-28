@@ -2,9 +2,17 @@
   use PHPMailer\PHPMailer\PHPMailer;
   use PHPMailer\PHPMailer\Exception;
 
-  require '../vendor/phpmailer/phpmailer/src/Exception.php';
-  require '../vendor/phpmailer/phpmailer/src/PHPMailer.php';
-  require '../vendor/phpmailer/phpmailer/src/SMTP.php';
+  $path;
+  if (file_exists('../vendor/autoload.php')) {
+      $path = '../vendor/autoload.php';
+  } else {
+      $path = '../../vendor/autoload.php';
+  }
+  require_once $path;
+
+  // require '../vendor/phpmailer/phpmailer/src/Exception.php';
+  // require '../vendor/phpmailer/phpmailer/src/PHPMailer.php';
+  // require '../vendor/phpmailer/phpmailer/src/SMTP.php';
 
   $mail = new PHPMailer();
   $mail->IsSMTP();
@@ -24,6 +32,7 @@
   $email = $_POST['email'];
   $subject = $_POST['subject'];
   $message = $_POST['message'];
+  $gRecaptchaResponse = $_POST['gRecaptchaResponse'];
 
   $content = 'Name: '.$from.'<br/>Company: '.$company.'<br/>Email: '.$email.'<br/>Subject: '.$subject.'<br/>Message: '.$message;
 
@@ -32,11 +41,15 @@
   $mail->SetFrom($email,  $from);
   $mail->Subject = $subject;
   $mail->MsgHTML($content); 
+
+  $secret = "6LcC-agZAAAAAPLy1Pq9_6paVFfvCcXNCQMq2N0O";
+  $recaptcha = new \ReCaptcha\ReCaptcha($secret);
+
+  $resp = $recaptcha->setExpectedHostname($_SERVER['SERVER_NAME'])
+                ->verify($gRecaptchaResponse, $_SERVER['REMOTE_ADDR']);
   
-  if(!$mail->Send()) {
-    echo "Error while sending Email.";
-    var_dump($mail);
-  } else {
-    echo "Email sent successfully";
+  if ($resp->isSuccess()) {
+
+    $mail->Send();
   }
 ?>

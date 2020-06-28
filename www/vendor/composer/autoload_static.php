@@ -27,6 +27,10 @@ class ComposerStaticInitbe71d60fab40816fabe01641df063c35
             'Symfony\\Polyfill\\Intl\\Idn\\' => 26,
             'Symfony\\Polyfill\\Ctype\\' => 23,
         ),
+        'R' => 
+        array (
+            'ReCaptcha\\' => 10,
+        ),
         'P' => 
         array (
             'Psr\\Http\\Message\\' => 17,
@@ -81,6 +85,10 @@ class ComposerStaticInitbe71d60fab40816fabe01641df063c35
         'Symfony\\Polyfill\\Ctype\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/polyfill-ctype',
+        ),
+        'ReCaptcha\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/google/recaptcha/src/ReCaptcha',
         ),
         'Psr\\Http\\Message\\' => 
         array (
