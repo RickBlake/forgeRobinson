@@ -10,6 +10,8 @@
   }
   require_once $path;
 
+  $configs = include('../config.php');
+
   // require '../vendor/phpmailer/phpmailer/src/Exception.php';
   // require '../vendor/phpmailer/phpmailer/src/PHPMailer.php';
   // require '../vendor/phpmailer/phpmailer/src/SMTP.php';
@@ -22,8 +24,8 @@
   $mail->SMTPSecure = "tls";
   $mail->Port       = 25;
   $mail->Host       = "smtp.gmail.com";
-  $mail->Username   = "forgerobinsoncontact@gmail.com";
-  $mail->Password   = "forge123!";
+  $mail->Username   = $configs['user'];
+  $mail->Password   = $configs['pass'];
 
   $fname = $_POST['fname'];
   $lname = $_POST['lname'];
@@ -37,12 +39,12 @@
   $content = 'Name: '.$from.'<br/>Company: '.$company.'<br/>Email: '.$email.'<br/>Subject: '.$subject.'<br/>Message: '.$message;
 
   $mail->IsHTML(true);
-  $mail->AddAddress("forgerobinsonfrance@gmail.com", "Simon Robinson");
+  $mail->AddAddress($configs['contactemail'], "Simon Robinson");
   $mail->SetFrom($email,  $from);
   $mail->Subject = $subject;
   $mail->MsgHTML($content); 
 
-  $secret = "6LcC-agZAAAAAPLy1Pq9_6paVFfvCcXNCQMq2N0O";
+  $secret = $configs['secret'];
   $recaptcha = new \ReCaptcha\ReCaptcha($secret);
 
   $resp = $recaptcha->setExpectedHostname($_SERVER['SERVER_NAME'])

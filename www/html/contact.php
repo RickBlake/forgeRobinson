@@ -84,7 +84,7 @@
                                     </tr>
                                     <tr>
                                         <td colspan="2">
-                                            <div class="g-recaptcha" data-sitekey="6LcC-agZAAAAADMs2dmYS6Iq3yCsWvruooogPLYi"></div>
+                                            <div class="g-recaptcha" data-sitekey="6LdjlKoZAAAAAGUQbnOrklOOwre4gU7DsV5XAkfu"></div>
                                         </td>
                                     </tr>
                                     <tr>
