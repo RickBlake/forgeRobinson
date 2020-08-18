@@ -34,9 +34,6 @@
 
                         <figure>
                             <img class="profile" src="img/anthony.jpg" width="100%"></img>    
-                            <figcaption>
-                                Anthony Robinson Fellow Worshipful Company of Blacksmiths, member of the Guild
-                            </figcaption>
                         </figure>
                         <!--ENGLISH-->
                             <p>Born in 1935 in Reading, Berkshire, Antony hails from a family heritage rich in Craft: one

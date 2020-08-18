@@ -35,9 +35,6 @@
 
 <figure>
     <img class="profile" src="img/simon.jpg" width="100%"></img>    
-    <figcaption>
-        Simon Robinson Fellow Worshipful Company of Blacksmiths, member of the Guild
-    </figcaption>
 </figure>
 <!--ENGLISH-->
     <p>Born in Reading in 1962, Simon was a presence in his father’s forge from the age of seven,

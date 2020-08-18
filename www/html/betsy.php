@@ -28,15 +28,12 @@
                 <div id="pageContent">
 
                 <div class="fullwidthHeader">
-                    <h1>BETSY</h1>
+                    <h1>BETSY HOULTON ROBINSON</h1>
                 </div>
                 <div class="justified">
 
                     <figure>
                         <img class="profile" src="img/betsy.jpg" width="100%"></img>    
-                        <figcaption>
-                            Betsy Houlton Robinson
-                        </figcaption>
                     </figure>
                     <!--ENGLISH-->
                         <p>Betsy Houlton, who joined the Robinson team in 2008 was born in Manhattan, NYC in 1965.
