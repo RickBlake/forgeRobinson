@@ -52,7 +52,7 @@
                         <div class="dropdown-content">
                             <a href="/process.php" class="navLink">PROCESS</a>
                             <a href="/sketchbook.php" class="navLink">SKETCHBOOK</a>
-                            <a href="/challenges.php" class="navLink">CHALLENGES</a>
+                            <!--<a href="/challenges.php" class="navLink">CHALLENGES</a>-->
                         </div>
                     </li>
                     <li><a href="/contact.php" class="navLink">CONTACT</a></li>

@@ -26,7 +26,7 @@
         <div>
             <div class="main wrapper clearfix">
                 <div id="pageContent">
-                <div class="fullwidthHeader">
+                <div class="bioHeader">
                         <h1>ANTHONY ROBINSON FWCB</h1>
                     </div>
 

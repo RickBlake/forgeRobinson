@@ -27,7 +27,7 @@
             <div class="main wrapper clearfix">
                 <div id="pageContent">
 
-                <div class="fullwidthHeader">
+                <div class="bioHeader">
                     <h1>BETSY HOULTON ROBINSON</h1>
                 </div>
                 <div class="justified">
