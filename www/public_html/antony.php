@@ -5,7 +5,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>ANTHONY</title>
+    <title>ANTONY</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
@@ -27,13 +27,13 @@
             <div class="main wrapper clearfix">
                 <div id="pageContent">
                 <div class="bioHeader">
-                        <h1>ANTHONY ROBINSON FWCB</h1>
+                        <h1>ANTONY ROBINSON FWCB</h1>
                     </div>
 
                     <div class="justified">
 
                         <figure>
-                            <img class="profile" src="img/anthony.jpg" width="100%"></img>    
+                            <img class="profile" src="img/antony.jpg" width="100%"></img>    
                         </figure>
                         <!--ENGLISH-->
                             <p>Born in 1935 in Reading, Berkshire, Antony hails from a family heritage rich in Craft: one
