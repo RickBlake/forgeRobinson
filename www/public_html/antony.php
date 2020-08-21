@@ -37,47 +37,47 @@
                         </figure>
                         <!--ENGLISH-->
                             <p>Born in 1935 in Reading, Berkshire, Antony hails from a family heritage rich in Craft: one
-                                grandfather was a blacksmith for the Great Western Railroad, the other a master carpenter and
-                                builder of elegant Thames-side homes. Antony’s childhood and formative years were spent in
-                                Australia where his family had moved after the end of WW2. It was there that his interest in
-                                vintage cars began, becoming the proud owner of a 1928 three-liter Bentley. Funds from the sale
-                                of this car later allowed Antony and his new bride, Marie, to return to England in 1960.</p>
+                            grandfather was a blacksmith for the Great Western Railway, the other a master carpenter and
+                            builder of elegant Thames-side homes. Antony’s childhood and formative years were spent in
+                            Australia where his family had moved after the end of WW2. It was there that his interest in
+                            vintage cars began, becoming the proud owner of a 1928 three-litre Bentley. Funds from the sale
+                            of this car later allowed Antony and his new bride, Marie, to return to England in 1960.</p>
 
-                                <p>
-                                Back in Berkshire, Antony’s natural gift for working metal was recognized by the director of the
-                                forge and engineering company where he was employed and was encouraged to develop new
-                                ideas in metal, producing steel sculptures and exploring contemporary forms. Antony’s first
-                                forging workshop was a gift from this company director upon his retirement, which greatly
-                                helped and encouraged the young smith. Antony broke from the conventions of traditional
-                                English metalwork during the fruitful period that followed, designing modern gates which
-                                introduced a more sculptural vocabulary. He also taught a scultpure class at the Chelsea College
-                                of Art in London, where he encouraged students to look for alternatives to traditional designs.</p>
+                            <p>
+                            Back in Berkshire, Antony’s natural gift for working metal was recognized by the director of the
+                            forge and engineering company where he was employed and was encouraged to develop new
+                            ideas in metal, producing steel sculptures and exploring contemporary forms. Antony’s first
+                            forging workshop was a gift from this company director upon his retirement, which greatly
+                            helped and encouraged the young smith. Antony broke from the conventions of traditional
+                            English metalwork during the fruitful period that followed, designing modern gates which
+                            introduced a more sculptural vocabulary. He also taught a scultpure class at the Chelsea College
+                            of Art in London, where he encouraged students to look for alternatives to traditional designs.</p>
 
-                                <p>
-                                In the early 1970s, the Victoria and Albert Museum took permanent loan of Antony’s forged
-                                wall scultpure entitled “Fire Imp”, calling it “truly a historic piece,” that marked “the beginning
-                                of the Renaissance in blacksmithing in [England],” (Marian Campbell, the V&amp;A Senior Curator
-                                of the Metalwork, Silver and Jewellery Collection).</p>
+                            <p>
+                            In the early 1970s, the Victoria and Albert Museum took permanent loan of Antony’s forged
+                            wall scultpure entitled “Fire Imp”, calling it “truly a historic piece,” that marked “the beginning
+                            of the Renaissance in blacksmithing in [England],” (Marian Campbell, the V&amp;A Senior Curator
+                            of the Metalwork, Silver and Jewellery Collection).</p>
 
-                                <p>
-                                In 1981, Antony won a milestone commission, the Royal Wedding commemorative gates at the
-                                Great Hall (Winchester, England). These were the first stainless steel gates in the world and
-                                became a watershed in 20 th century in stainless steel forging, Antony was awarded the Silver
-                                Medal from the Worshipful Company of Blacksmiths for this work (becaming the first person to
-                                win Silver without first winning the Bronze.</p>
+                            <p>
+                            In 1981, Antony won a milestone commission, the Royal Wedding commemorative gates at the
+                            Great Hall (Winchester, England). These were the first stainless steel gates in the world and
+                            became a watershed in 20 th century stainless steel forging, Antony was awarded the Silver Medal
+                            from the Worshipful Company of Blacksmiths for this work (becoming the first person to win
+                            Silver without first winning the Bronze.</p>
 
-                                <p>
-                                In 1994 Antony and Simon were commissioned to design and make a suite of metalwork for the
-                                home of a European client. These designs, which have been compared to Horta and Gaudi,
-                                included objects from doorhandles to front gates. The work took more than six years to
-                                complete, and in 2003 father and son were awarded the Tonypandy Cup from the Worshipful
-                                Company of Blacksmiths for this watershed work.</p>
+                            <p>
+                            In 1994 Antony and Simon were commissioned to design and make a suite of metalwork for the
+                            home of a European client. These designs, which have been compared to Horta and Gaudi,
+                            included objects from doorhandles to front gates. The work took more than six years to
+                            complete, and in 2003 father and son were awarded the Tonypandy Cup from the Worshipful
+                            Company of Blacksmiths for this watershed work.</p>
 
-                                <p>
-                                Although Antony has now officially retired, there is still a high degree of collaboration between
-                                him and his son. Recently he also completed building a custom 1922 Vauxhall D Type.</p>
+                            <p>
+                            Although Antony has now officially retired, there is still a high degree of collaboration between
+                            him and his son. Recently he also completed building a custom 1922 Vauxhall D Type.</p>
 
-                                <p>
+                            <p>
                                 FWCB = Fellow Worshipful Company of Blacksmiths, member of the Guild</p>
 
                                 <!--ENF OF ENGLISH-->

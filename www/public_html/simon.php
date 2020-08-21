@@ -37,7 +37,8 @@
     <img class="profile" src="img/simon.jpg" width="100%"></img>    
 </figure>
 <!--ENGLISH-->
-    <p>Born in Reading in 1962, Simon was a presence in his father’s forge from the age of seven,
+<p>
+Born in Reading in 1962, Simon was a presence in his father’s forge from the age of seven,
 carrying on the family’s multi-generational artistic talent by making small sculptures of his own.
 As his affinity with metal developed, Simon pursued studies in fine art and cultivated a lively
 interest in metal forming, buildings, bridges and themepark structures, many of which to him,
@@ -46,10 +47,10 @@ seemed to be monumental sculptures in their own right.</p>
 <p>
 Simon attended art college, which was followed by a five-year apprenticship to his father. This
 concluded with the Winchester Gates commission: the first-ever gates of this scale in forged
-stainles steel. Adhering to European tradition, Simon then set out on his Journeymanship.
+stainless steel. Adhering to European tradition, Simon then set out on his Journeymanship.
 Beginning in Czechoslovakia, he worked with Alfred Habermann, one of the world’s leading
 smiths, and continued in Germany, where he worked extensively with Hermann Gradinger,
-another great master, especially in the use of profiled steel such as angle.</a>
+another great master, especially in the use of profiled steel such as angle.</p>
 
 <p>
 In 1986, Simon became the first smith from the West to demonstrate at the Hefaiston
@@ -78,7 +79,7 @@ Bronze medal and title of Master Blacksmith.</p>
 In 2006, Simon moved to Normandy, France, establishing his business under the name Forge
 Robinson. He continues the family tradition of creating unique pieces for clients the world over,
 while also meeting the needs of the local and surrounding communities, always striving to push
-and redefine the boundaries of an ancient, yet living, art.<p>
+and redefine the boundaries of an ancient, yet living, art.</p>
 <!--END OF ENGLISH-->
 
 <p>FWCB = Fellow Worshipful Company of Blacksmiths, member of the Guild</p>

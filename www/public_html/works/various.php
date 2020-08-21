@@ -5,7 +5,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>VARIOUS / DIVERSES</title>
+    <title>VARIOUS / DIVERS</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
@@ -26,7 +26,7 @@
         <div id="gallery">
             <div>
                 <div class="galleryHeader">
-                    <h1>VARIOUS / DIVERSES</h1>
+                    <h1>VARIOUS / DIVERS</h1>
                 </div>
                 <div class="main wrapper clearfix">
                     <div id="gallery">

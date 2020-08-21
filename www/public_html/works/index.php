@@ -110,7 +110,7 @@
                                     style="display:block; background-image: url('/img/various.jpg')">
                                     <div class="content">
                                         VARIOUS </br>
-                                        <i>DIVERSES</i>
+                                        <i>DIVERS</i>
                                     </div>
                                 </a>                           
 
