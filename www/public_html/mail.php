@@ -19,7 +19,7 @@
   $mail = new PHPMailer();
   $mail->IsSMTP();
 
-  $mail->SMTPDebug  = 0;  
+  $mail->SMTPDebug  = 1;  
   $mail->SMTPAuth   = TRUE;
   $mail->SMTPSecure = "tls";
   $mail->Port       = 587;
@@ -34,7 +34,6 @@
   $email = $_POST['email'];
   $subject = $_POST['subject'];
   $message = $_POST['message'];
-  $gRecaptchaResponse = $_POST['gRecaptchaResponse'];
 
   $content = 'Name: '.$from.'<br/>Company: '.$company.'<br/>Email: '.$email.'<br/>Subject: '.$subject.'<br/>Message: '.$message;
 
@@ -44,14 +43,5 @@
   $mail->Subject = $subject;
   $mail->MsgHTML($content); 
 
-  $secret = $configs['secret'];
-  $recaptcha = new \ReCaptcha\ReCaptcha($secret);
-
-  $resp = $recaptcha->setExpectedHostname($_SERVER['SERVER_NAME'])
-                ->verify($gRecaptchaResponse, $_SERVER['REMOTE_ADDR']);
-  
-  if ($resp->isSuccess()) {
-
-    $mail->Send();
-  }
+  $mail->Send();
 ?>

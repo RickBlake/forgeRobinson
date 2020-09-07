@@ -18,23 +18,6 @@
             </a>
 
             <nav>
-                <!--
-                <form method="post" action="#">
-                    <select name="langSelect" id="langSelect" onchange="this.form.submit()">
-                        <option value="" <?php if($_SESSION['lang']== "") echo "selected"; ?>>Default</option>
-                        <option value="eng" <?php if($_SESSION['lang']== "eng") echo "selected"; ?>>English</option>
-                        <option value="fr" <?php if($_SESSION['lang']== "fr") echo "selected"; ?>>French</option>
-                    </select>
-                </form>
-                
-                <?php
-                    if(isset($_POST['langSelect'])){  
-                        session_start();
-                        $_SESSION['lang'] = $_POST['langSelect']; 
-                        echo "You have selected: " .$_SESSION['lang']; 
-                    }
-                ?>
-                -->
                 <ul>
                     <li class="dropdown">
                         <a href="#">ABOUT <i class="arrow down"></i></a>

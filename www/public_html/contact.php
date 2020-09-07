@@ -16,7 +16,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.6.14/css/lightgallery.css" />
 
     <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
-    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
 </head>
 
@@ -84,11 +83,6 @@
                                     </tr>
                                     <tr>
                                         <td colspan="2">
-                                            <div class="g-recaptcha" data-sitekey="6LdjlKoZAAAAAGUQbnOrklOOwre4gU7DsV5XAkfu"></div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td colspan="2">
                                             <span id="validation-info" class="info"></span>
                                         </td>
                                     </tr>
@@ -122,8 +116,7 @@
                 '&email='+$("#email").val()+
                 '&company='+$("#company").val()+
                 '&subject='+$("#subject").val()+
-                '&message='+$("#message").val()+
-                '&gRecaptchaResponse='+grecaptcha.getResponse(),
+                '&message='+$("#message").val(),
                 type: "POST",
                 success:function(data){
                     $("#submitBtn").addClass('hidden');
@@ -188,15 +181,6 @@
             valid = false;
         }else{
             $("#message").css('border-color','#405951');
-        }
-
-        if(valid) {
-            var v = grecaptcha.getResponse();
-            if(v.length == 0)
-            {
-                $("#validation-info").html("Please confirm you are not a robot.");
-                valid = false;
-            }
         }
 
         if(valid) $("#validation-info").html("");
