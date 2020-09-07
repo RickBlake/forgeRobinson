@@ -59,11 +59,7 @@
                                             <input type="text" id="lname" name="lastname" placeholder="SURNAME">
                                         </td>
                                     </tr>
-                                    <tr>
-                                        <td colspan="2">
-                                            <input type="text" id="company" name="company" placeholder="COMPANY NAME">
-                                        </td>
-                                    </tr>
+
                                     <tr>
                                         <td colspan="2">
                                             <input type="text" id="email" name="email" placeholder="EMAIL">
@@ -114,7 +110,6 @@
                 data:'fname='+$("#fname").val()+
                 '&lname='+$("#lname").val()+
                 '&email='+$("#email").val()+
-                '&company='+$("#company").val()+
                 '&subject='+$("#subject").val()+
                 '&message='+$("#message").val(),
                 type: "POST",
@@ -124,7 +119,6 @@
                     $("#fname").prop('disabled', true);
                     $("#lname").prop('disabled', true);
                     $("#email").prop('disabled', true);
-                    $("#company").prop('disabled', true);
                     $("#subject").prop('disabled', true);
                     $("#message").prop('disabled', true);
                 },
@@ -149,13 +143,6 @@
             valid = false;
         }else{
             $("#lname").css('border-color','#405951');
-        }
-
-        if(!$("#company").val()) {
-            $("#company").css('border-color','#DC143C');
-            valid = false;
-        }else{
-            $("#company").css('border-color','#405951');
         }
 
         if(!$("#email").val()) {

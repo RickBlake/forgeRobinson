@@ -32,13 +32,12 @@
 
   $fname = $_POST['fname'];
   $lname = $_POST['lname'];
-  $company = $_POST['company'];
   $from = $fname.' '. $lname;
   $email = $_POST['email'];
   $subject = $_POST['subject'];
   $message = $_POST['message'];
 
-  $content = 'Name: '.$from.'<br/>Company: '.$company.'<br/>Email: '.$email.'<br/>Subject: '.$subject.'<br/>Message: '.$message;
+  $content = 'Name: '.$from.'<br/>Email: '.$email.'<br/>Subject: '.$subject.'<br/>Message: '.$message;
 
   $mail->IsHTML(true);
   $mail->AddAddress($configs['contactemail'], "Simon Robinson");
