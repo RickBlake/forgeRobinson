@@ -19,7 +19,10 @@
   $mail = new PHPMailer();
   $mail->IsSMTP();
 
-  $mail->SMTPDebug  = 1;  
+  $mail->SMTPDebug  = 3;  
+  $mail->Debugoutput = function($str, $level) {
+    file_put_contents('smtp.log', gmdate('Y-m-d H:i:s'). "\t$level\t$str\n", FILE_APPEND | LOCK_EX);
+  };
   $mail->SMTPAuth   = TRUE;
   $mail->SMTPSecure = "tls";
   $mail->Port       = 587;
