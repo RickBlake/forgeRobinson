@@ -12,23 +12,10 @@
 
   $configs = include('../config.php');
 
-  // require '../vendor/phpmailer/phpmailer/src/Exception.php';
-  // require '../vendor/phpmailer/phpmailer/src/PHPMailer.php';
-  // require '../vendor/phpmailer/phpmailer/src/SMTP.php';
-
   $mail = new PHPMailer();
-  $mail->IsSMTP();
-
-  $mail->SMTPDebug  = 3;  
-  $mail->Debugoutput = function($str, $level) {
-    file_put_contents('smtp.log', gmdate('Y-m-d H:i:s'). "\t$level\t$str\n", FILE_APPEND | LOCK_EX);
-  };
-  $mail->SMTPAuth   = TRUE;
-  $mail->SMTPSecure = "tls";
-  $mail->Port       = 587;
-  $mail->Host       = "smtp.gmail.com";
-  $mail->Username   = $configs['user'];
-  $mail->Password   = $configs['pass'];
+  $content_type = 'text/plain';
+  $mail->ContentType = $content_type;
+  $mail->IsMail();
 
   $fname = $_POST['fname'];
   $lname = $_POST['lname'];
@@ -39,7 +26,7 @@
 
   $content = 'Name: '.$from.'<br/>Email: '.$email.'<br/>Subject: '.$subject.'<br/>Message: '.$message;
 
-  $mail->IsHTML(true);
+  $mail->IsHTML(false);
   $mail->AddAddress($configs['contactemail'], "Simon Robinson");
   $mail->SetFrom($email,  $from);
   $mail->Subject = $subject;
