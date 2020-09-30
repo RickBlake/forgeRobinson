@@ -35,7 +35,7 @@
                 <div id="pageContent">
 
                     <div class="justified">
-                        <p>
+                        <p style="<?php isEn() ?>">
                             First produced in 1915, stainless steel contains a minimum of 10,5 % of chromium and 8 %
                             nickel, making its resistance to corrosion phenomenal. This noble metal is now being
                             recognized for its environmental properties too. It is 100 % recyclable. Objets made are for
@@ -43,8 +43,7 @@
                             recycled material, making it a cost affective prospect. Stainless steel almost never become
                             waste at the end of their use and the estimated end of life recycling ratio is up to 90 %.
                         </p>
-                        <hr>
-                        <p>
+                        <p style="<?php isFr() ?>">
                             Produit pour la première fois en 1915, l'acier inoxydable contient un minimum de 10,5 % de
                             chrome et 8 % de nickel, ce qui fait de lui un métal incroyablement résistant à la
                             corrosion.
@@ -63,6 +62,14 @@
                             <img src="img/processLeft.jpg" width="100%"></img>
                         </figure>
 
+                        <div style="<?php isEn() ?>">
+                        <p class="pdfLink">
+                            <table>
+                                <tr><td rowspan="2"><a href="/pdf/nehou-gate.pdf" target="_blank"><img src="/img/pdf.png" class="pdfIcon"/></a>
+                                </td><td><a href="/pdf/nehou-gate.pdf" target="_blank">Design proposal for gates with spiritual theme
+                                    of peace conquering war.</a></td></tr>
+                            </table>       
+                        </p>
                         <p>
                             From the outset there is a total commitment of dialogue between ourselves and the clients,
                             architect or contractor. In certain cases, there is a budget to work within, but invariably
@@ -101,9 +108,16 @@
                         </p>
                         <p class="pdfLink">
                             <table>
+                                <tr><td rowspan="2"><a href="/pdf/Theatre-Light-Holders.pdf" target="_blank"><img src="/img/pdf.png" class="pdfIcon"/></a>
+                                </td><td><a href="/pdf/Theatre-Light-Holders.pdf" target="_blank">Design proposal for outdoor theatre sculptural lighting supports in inox.</a></td></tr>
+                            </table>       
+                        </p>
+                        </div>
+
+                        <div style="<?php isFr() ?>">
+                        <p class="pdfLink">
+                            <table>
                                 <tr><td rowspan="2"><a href="/pdf/nehou-gate.pdf" target="_blank"><img src="/img/pdf.png" class="pdfIcon"/></a>
-                                </td><td><a href="/pdf/nehou-gate.pdf" target="_blank">Design proposal for gates with spiritual theme
-                                    of peace conquering war.</a></td></tr>
                                 <tr><td><a href="/pdf/nehou-gate.pdf" target="_blank">Proposition de dessin avec pour thème
                                     spirituel la paix conquérant la guerre.</a></td></tr>
                             </table>       
@@ -144,15 +158,17 @@
                             dépôt ou un paiement final sont faits, soit un paiement lors de l'achèvement. Les frais de
                             dessin sont demandés pour des projets de plus de trois semaines.
                         </p>
+
+                        <p class="pdfLink">
+                            <table>
+                                <tr><td rowspan="2"><a href="/pdf/Theatre-Light-Holders.pdf" target="_blank"><img src="/img/pdf.png" class="pdfIcon"/></a>
+                                <tr><td><a href="/pdf/Theatre-Light-Holders.pdf" target="_blank">Proposition de dessin pour un théâtre de plein air avec supports d’éclairage sculpturaux.</a></td></tr>
+                            </table>       
+                        </p>
+                        </div>
                     </div>
 
-                    <p class="pdfLink">
-                        <table>
-                            <tr><td rowspan="2"><a href="/pdf/Theatre-Light-Holders.pdf" target="_blank"><img src="/img/pdf.png" class="pdfIcon"/></a>
-                            </td><td><a href="/pdf/Theatre-Light-Holders.pdf" target="_blank">Design proposal for outdoor theatre sculptural lighting supports in inox.</a></td></tr>
-                            <tr><td><a href="/pdf/Theatre-Light-Holders.pdf" target="_blank">Proposition de dessin pour un théâtre de plein air avec supports d’éclairage sculpturaux.</a></td></tr>
-                        </table>       
-                    </p>
+
 
                     <div class="videoWrapper">    
                         <iframe src="https://www.youtube.com/embed/0HKYakzpkmI" frameborder="0"

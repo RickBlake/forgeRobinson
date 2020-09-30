@@ -37,6 +37,7 @@
     <img class="profile" src="img/simon.jpg" width="100%"></img>    
 </figure>
 <!--ENGLISH-->
+<div style="<?php isEn() ?>">
 <p>
 Born in Reading in 1962, Simon was a presence in his father’s forge from the age of seven,
 carrying on the family’s multi-generational artistic talent by making small sculptures of his own.
@@ -83,8 +84,11 @@ and redefine the boundaries of an ancient, yet living, art.</p>
 <!--END OF ENGLISH-->
 
 <p>FWCB = Fellow Worshipful Company of Blacksmiths, member of the Guild</p>
-    <hr>
 
+</div>
+
+
+<div style="<?php isFr() ?>">
 <!--FRENCH-->
 <p>
 Né à Reading (Angleterre) en 1962, Simon fut présent dès l’âge de sept ans dans l’atelier de son
@@ -135,6 +139,7 @@ continue de repousser et de redéfinir les frontières d’un art ancien, mais t
 <p>
 * FWCB – Fellow Worshipful Company of Blacksmiths: Confrère de la Fraternité Vénérable des
 Forgerons, membre de la Guilde</p>
+</div>
 <!--END OF FRENCH-->
 
 </div>

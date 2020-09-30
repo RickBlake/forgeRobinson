@@ -36,6 +36,7 @@
                             <img class="profile" src="img/antony.jpg" width="100%"></img>    
                         </figure>
                         <!--ENGLISH-->
+                        <div style="<?php isEn() ?>">
                             <p>Born in 1935 in Reading, Berkshire, Antony hails from a family heritage rich in Craft: one
                             grandfather was a blacksmith for the Great Western Railway, the other a master carpenter and
                             builder of elegant Thames-side homes. Antony’s childhood and formative years were spent in
@@ -81,68 +82,70 @@
                                 FWCB = Fellow Worshipful Company of Blacksmiths, member of the Guild</p>
 
                                 <!--ENF OF ENGLISH-->
-
-                                <hr>
-
-                                <!--FRENCH-->
-
-                                <p>
-                                Né à Reading, dans le comté du Berkshire (Angleterre) en 1935, Antony vient d’une
-famille dont l’héritage est riche en artisanat. En effet, l’un de ses grands-pères était
-forgeron pour la Great Western Railroad; l’autre était maître menuisier et le
-constructeur de maisons élégantes longeant la Tamise.
-Il passe son enfance et ses années formatrices en Australie, où sa famille avait migré à
-la fin de la Seconde guerre mondiale. C’est là qu’il découvre sa passion des voitures
-anciennes, et il devint le propriétaire d’une Bentley 3 Liter de 1928. Grâce à l’argent
-rapporté par la vente de cette voiture, il pourra regagner l’Angleterre en 1960,
-accompagné de sa nouvelle épouse, Marie.</p>
-
-<p>
-De retour dans le Berkshire, le talent naturel d’Antony pour le travail du métal est vite
-repéré par le directeur d’une forge et entreprise d’ingénierie. C’est là qu’il est
-employé et encouragé à développer des nouvelles idées dans le métal, en produisant
-des sculptures en acier et en explorant des formes contemporaines. Lors de sa retraite,
-le même directeur fait à Antony le cadeau de sa première forge, un grand avancement
-pour le jeune forgeron.</p>
-
-<p>
-Tout au long de la période suivante, Antony s’éloigne de la norme de la ferronnerie
-anglaise traditionnelle, avec la création de portails qui introduisent un vocabulaire
-plus sculptural et plus moderne. Il donne aussi un cours de sculpture au Chelsea
-College of Art (Londres), où il encouragea ses élèves à chercher des nouvelles
-possibilités pour des dessins traditionnels.</p>
-
-<p>
-Au début des années 70, le Victoria and Albert Museum (Londres) fait un prêt
-permanent d’une sculpture murale forgée intitulée Fire Imp. Le musée qualifie
-l’oeuvre “véritablement historique”, qui marque “le début de la Renaissance dans la
-ferronnerie [en Angleterre], d’après Marian Campbell, Conservatrice Principale de la
-Collection de Ferronnerie, d’Argent et de Bijoux au V&amp;A.</p>
-
-<p>
-En 1981, Antony obtient une commission monumentale; il s’agit du portail
-commémoratif du Mariage Royal pour le Great Hall (Winchester, Angleterre). Ce
-portail est le premier en inox au monde, et un grand tournant dans le domaine du
-forgeage en inox. Pour cette oeuvre remarquable, Antony obtient la Médaille
-d’Argent de la Worshipful Company of Blacksmiths (la Fraternité Vénérable des
-Forgerons). Il devient la première personne à gagner la Médaille d’Argent sans
-d’abord passer par la Médaille de Bronze.</p>
-
-<p>
-En 1994, Antony et son Simon reçoivent une commande qui consiste en la création
-d’une suite de ferronnerie pour la demeure d’un client européen. Ces oeuvres, qui ont
-été comparées à Horta et à Gaudí, regroupent des objets divers, en allant des poignées
-de porte jusqu’à un portail d’entrée. Ce projet prend plus de six ans, et en 2003, père
-et fils gagnent la Tonypandy Cup de la Confrérie pour cette oeuvre monumentale.</p>
-
-<p>
-Antony est maintenant retraité, mais il reste un degré de collaboration avec son fils. Il
-a récemment fini de construire une Vauxhall de 1922, Type D.</p>
-
-<p>
-FWCB = Fellow Worshipful Company of Blacksmiths (Confrère de la Fraternité
-Vénérable des Forgerons), membre de la Guilde</p>
                         </div>
+
+
+                        <!--FRENCH-->
+                        <div style="<?php isFr() ?>">
+                            <p>
+                            Né à Reading, dans le comté du Berkshire (Angleterre) en 1935, Antony vient d’une
+                            famille dont l’héritage est riche en artisanat. En effet, l’un de ses grands-pères était
+                            forgeron pour la Great Western Railroad; l’autre était maître menuisier et le
+                            constructeur de maisons élégantes longeant la Tamise.
+                            Il passe son enfance et ses années formatrices en Australie, où sa famille avait migré à
+                            la fin de la Seconde guerre mondiale. C’est là qu’il découvre sa passion des voitures
+                            anciennes, et il devint le propriétaire d’une Bentley 3 Liter de 1928. Grâce à l’argent
+                            rapporté par la vente de cette voiture, il pourra regagner l’Angleterre en 1960,
+                            accompagné de sa nouvelle épouse, Marie.</p>
+
+                            <p>
+                            De retour dans le Berkshire, le talent naturel d’Antony pour le travail du métal est vite
+                            repéré par le directeur d’une forge et entreprise d’ingénierie. C’est là qu’il est
+                            employé et encouragé à développer des nouvelles idées dans le métal, en produisant
+                            des sculptures en acier et en explorant des formes contemporaines. Lors de sa retraite,
+                            le même directeur fait à Antony le cadeau de sa première forge, un grand avancement
+                            pour le jeune forgeron.</p>
+
+                            <p>
+                            Tout au long de la période suivante, Antony s’éloigne de la norme de la ferronnerie
+                            anglaise traditionnelle, avec la création de portails qui introduisent un vocabulaire
+                            plus sculptural et plus moderne. Il donne aussi un cours de sculpture au Chelsea
+                            College of Art (Londres), où il encouragea ses élèves à chercher des nouvelles
+                            possibilités pour des dessins traditionnels.</p>
+
+                            <p>
+                            Au début des années 70, le Victoria and Albert Museum (Londres) fait un prêt
+                            permanent d’une sculpture murale forgée intitulée Fire Imp. Le musée qualifie
+                            l’oeuvre “véritablement historique”, qui marque “le début de la Renaissance dans la
+                            ferronnerie [en Angleterre], d’après Marian Campbell, Conservatrice Principale de la
+                            Collection de Ferronnerie, d’Argent et de Bijoux au V&amp;A.</p>
+
+                            <p>
+                            En 1981, Antony obtient une commission monumentale; il s’agit du portail
+                            commémoratif du Mariage Royal pour le Great Hall (Winchester, Angleterre). Ce
+                            portail est le premier en inox au monde, et un grand tournant dans le domaine du
+                            forgeage en inox. Pour cette oeuvre remarquable, Antony obtient la Médaille
+                            d’Argent de la Worshipful Company of Blacksmiths (la Fraternité Vénérable des
+                            Forgerons). Il devient la première personne à gagner la Médaille d’Argent sans
+                            d’abord passer par la Médaille de Bronze.</p>
+
+                            <p>
+                            En 1994, Antony et son Simon reçoivent une commande qui consiste en la création
+                            d’une suite de ferronnerie pour la demeure d’un client européen. Ces oeuvres, qui ont
+                            été comparées à Horta et à Gaudí, regroupent des objets divers, en allant des poignées
+                            de porte jusqu’à un portail d’entrée. Ce projet prend plus de six ans, et en 2003, père
+                            et fils gagnent la Tonypandy Cup de la Confrérie pour cette oeuvre monumentale.</p>
+
+                            <p>
+                            Antony est maintenant retraité, mais il reste un degré de collaboration avec son fils. Il
+                            a récemment fini de construire une Vauxhall de 1922, Type D.</p>
+
+                            <p>
+                            FWCB = Fellow Worshipful Company of Blacksmiths (Confrère de la Fraternité
+                            Vénérable des Forgerons), membre de la Guilde</p>
+
+                        </div>
+                    </div>
 
                 </div>
             </div>

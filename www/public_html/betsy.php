@@ -36,6 +36,7 @@
                         <img class="profile" src="img/betsy.jpg" width="100%"></img>    
                     </figure>
                     <!--ENGLISH-->
+                    <div style="<?php isEn() ?>">
                         <p>Betsy Houlton, who joined the Robinson team in 2008 was born in Manhattan, NYC in 1965.
                             The decorative and industrial ironwork of the cityscape fostered an early interest in metalwork.
                             She attended Columbia Grammar high school where Art History was offered on the university
@@ -56,11 +57,12 @@
                             Robinsons, and in 2009, Simon and Betsy were married. Betsy continues to work on small
                             private commissions and assists in the larger works, while also heading up, marketing and
                             administration.</p>
+                    </div>
 
-                            <hr>
 
-                            <!--FRENCH-->
-                            <p>
+                    <!--FRENCH-->
+                    <div style="<?php isFr() ?>">
+                        <p>
                             Betsy se joint à l’équipe Robinson en 2008. Elle est née à Manhattan (New York) en
                             1965 et s’intéresse très vite au métal, favorisé par l’abondance de ferronnerie artistique et
                             industrielle dans la ville.</p>
@@ -86,6 +88,7 @@
                             travailler sur des petites commandes privées et prête main forte pour les oeuvres plus
                             grandes, tout en gérant le marketing et l’administration.
                         </p>
+                    </div>
                 </div>
 
 
