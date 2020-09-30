@@ -44,7 +44,7 @@
                     <img src="/img/press2.png" width="100%" />
 
                     <br /><br />
-                    <h2>The Anvil's Ring Features</h2>
+                    <h2>Anvil's Ring</h2>
 
                     <div style="<?php isEn() ?>">
 
