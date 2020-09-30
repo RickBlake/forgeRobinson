@@ -100,8 +100,12 @@ body {
 }
 
 #lang-select {
-    padding-top: 40px;
+    padding-top: 50px;
     float: right;
+}
+
+.dd-selected {
+    padding: 4px !important;
 }
 
 /* ==============
