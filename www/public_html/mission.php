@@ -35,20 +35,20 @@
 
                         <figure>
                             <img src="img/mission.jpg" width="100%"></img>
-                            <figcaption>
+                            <figcaption style="<?php isEn() ?>">
                                 Simon forging with Mateo C’ de Baca.<br/>
                                 Four day forging workshop at the Abbey of Regina Laudis, CT, USA.<br/> 
                                 11-17 August 2016
-                            <br/><br/>
+                            </figcaption>
+                            <figcaption style="<?php isFr() ?>">
                                 Simon forge avec Mateo C’ de Baca.<br/>
                                 Stage de ferronnerie de 4 jours à l’abbaye de Regina Laudis, Connecticut (USA).<br/> 
                                 11-17 août 2016
                             </figcaption>
                         </figure>
 
+                        <div style="<?php isEn() ?>">
                         <h3>To enhance personal and public environments with unique creations in hand forged metals.</h3>
-                        <h3>Embellir les environnements publics et personnels avec des créations uniques en fer forgé à
-                                la main.</h3>
                         <hr>
                         <p>
                             Internationally recognized as leading exponents in hand forging, forming stainless steel
@@ -69,7 +69,11 @@
                             graceful, thus producing a totally different presence to any other metal.
                         </p>
                         <p> 
-                        <hr>
+                        </div>
+
+                        <div style="<?php isFr() ?>">
+                        <h3>Embellir les environnements publics et personnels avec des créations uniques en fer forgé à la main.</h3>
+                        <hr/>
                         <p>
                             Reconnus de par le monde comme les représentants principaux dans l'art du fer forgé, créant
                             des oeuvres fonctionnels ou esthétiques en inox pour des espaces en intérieur, en plein air,
@@ -95,6 +99,7 @@
                             plus gracieuse, et produit un effet et une présence uniques et introuvables chez d'autres
                             métaux.
                         </p>
+                        </div>
                     </div>
                 </div>
             </div>

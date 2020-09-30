@@ -8,6 +8,22 @@
     }
     require_once $path;
 
+    function isEn() {
+        if($_GET['lang'] == 'en'){
+            echo "display: block;";
+        } else {
+            echo "display: none;";
+        }
+    }
+
+    function isFr() {
+        if($_GET['lang'] == 'fr'){
+            echo "display: block;";
+        } else {
+            echo "display: none;";
+        }
+    }
+
 ?>
 
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
