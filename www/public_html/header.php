@@ -107,7 +107,7 @@
             }   
         });
 
-        let langIndex = getUrlParameter('lang') === 'en' ? 0 : 1;
+        let langIndex = getUrlParameter('lang') === 'fr' ? 1 : 0;
         $('#lang-select').ddslick('select', {index: langIndex });
 
     </script>

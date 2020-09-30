@@ -46,38 +46,63 @@
                     <br /><br />
                     <h2>The Anvil's Ring Features</h2>
 
-                    <p class="pdfLink">
-                        <table>
-                            <tr><td rowspan="2"><a href="/pdf/Anvils-Ring-1.pdf" target="_blank"><img src="/img/pdf.png" class="pdfIcon"/></a>
-                            </td><td><a href="/pdf/Anvils-Ring-1.pdf" target="_blank">Article - Anvils Ring. Summer 2013
-                                Edition.</a></td></tr>
-                            <tr><td><a href="/pdf/Anvils-Ring-1.pdf" target="_blank">Article paru dans Anvils Ring, numéro d'été
-                                2013.</a></td></tr>
-                        </table>       
-                    </p>
+                    <div style="<?php isEn() ?>">
 
-                    <p class="pdfLink">
-                        <table>
-                            <tr><td rowspan="2"><a href="/pdf/How-Design-Happens-1.pdf" target="_blank"><img src="/img/pdf.png" class="pdfIcon"/></a>
-                            </td><td><a href="/pdf/How-Design-Happens-1.pdf" target="_blank">How Design Happens Part One.</a></td></tr>
-                            <tr><td><a href="/pdf/How-Design-Happens-1.pdf" target="_blank">Le Processus du Dessin, première partie.</a></td></tr>
-                        </table>       
-                    </p>
+                        <p class="pdfLink">
+                            <table>
+                                <tr><td rowspan="2"><a href="/pdf/Anvils-Ring-1.pdf" target="_blank"><img src="/img/pdf.png" class="pdfIcon"/></a>
+                                </td><td><a href="/pdf/Anvils-Ring-1.pdf" target="_blank">Article - Anvils Ring. Summer 2013
+                                    Edition.</a></td></tr>
+                            </table>       
+                        </p>
 
-                    <p class="pdfLink">
-                        <table>
-                            <tr><td rowspan="2"><a href="/pdf/How-Design-Happens-2.pdf" target="_blank"><img src="/img/pdf.png" class="pdfIcon"/></a>
-                            </td><td><a href="/pdf/How-Design-Happens-2.pdf" target="_blank">How Design Happens Part Two.</a></td></tr>
-                            <tr><td><a href="/pdf/How-Design-Happens-2.pdf" target="_blank">Le Processus du Dessin, deuxième
-                                partie.</a></td></tr>
-                        </table>       
-                    </p>
+                        <p class="pdfLink">
+                            <table>
+                                <tr><td rowspan="2"><a href="/pdf/How-Design-Happens-1.pdf" target="_blank"><img src="/img/pdf.png" class="pdfIcon"/></a>
+                                </td><td><a href="/pdf/How-Design-Happens-1.pdf" target="_blank">How Design Happens Part One.</a></td></tr>
+                            </table>       
+                        </p>
 
-                    <br />
-                    <h2>BBC Broadcast, 29 January 2006</h2>
-                    <p> The history of Blacksmithing - not just any metal gates.</p>
-                    <h2>Diffusion de la BBC, 29 janvier 2006</h2> 
-                    <p>L'histoire de la ferronnerie - pas n'importe quel portail.</p>
+                        <p class="pdfLink">
+                            <table>
+                                <tr><td rowspan="2"><a href="/pdf/How-Design-Happens-2.pdf" target="_blank"><img src="/img/pdf.png" class="pdfIcon"/></a>
+                                </td><td><a href="/pdf/How-Design-Happens-2.pdf" target="_blank">How Design Happens Part Two.</a></td></tr>
+                            </table>       
+                        </p>
+
+                        <h2>BBC Broadcast, 29 January 2006</h2>
+                        <p> The history of Blacksmithing - not just any metal gates.</p>
+                    </div>
+
+                    <div style="<?php isFr() ?>">
+
+                        <p class="pdfLink">
+                            <table>
+                                <tr><td rowspan="2"><a href="/pdf/Anvils-Ring-1.pdf" target="_blank"><img src="/img/pdf.png" class="pdfIcon"/></a>
+                                <tr><td><a href="/pdf/Anvils-Ring-1.pdf" target="_blank">Article paru dans Anvils Ring, numéro d'été
+                                    2013.</a></td></tr>
+                            </table>       
+                        </p>
+
+                        <p class="pdfLink">
+                            <table>
+                                <tr><td rowspan="2"><a href="/pdf/How-Design-Happens-1.pdf" target="_blank"><img src="/img/pdf.png" class="pdfIcon"/></a>
+                                <tr><td><a href="/pdf/How-Design-Happens-1.pdf" target="_blank">Le Processus du Dessin, première partie.</a></td></tr>
+                            </table>       
+                        </p>
+
+                        <p class="pdfLink">
+                            <table>
+                                <tr><td rowspan="2"><a href="/pdf/How-Design-Happens-2.pdf" target="_blank"><img src="/img/pdf.png" class="pdfIcon"/></a>
+                                <tr><td><a href="/pdf/How-Design-Happens-2.pdf" target="_blank">Le Processus du Dessin, deuxième
+                                    partie.</a></td></tr>
+                            </table>       
+                        </p>
+
+                        <h2>Diffusion de la BBC, 29 janvier 2006</h2> 
+                        <p>L'histoire de la ferronnerie - pas n'importe quel portail.</p>
+
+                    </div>
                     <audio controls="controls">
                         <source src="/audio/blacksmith-prog.mp3" type="audio/mpeg" />
                         Your browser does not support the audio element.
