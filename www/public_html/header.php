@@ -48,7 +48,7 @@
                             <!--<a href="/challenges.php" class="navLink">CHALLENGES</a>-->
                         </div>
                     </li>
-                    <li><a href="/contact.php" class="navLink">CONTACT</a></li>
+                    <li><a href="/contact.php?lang=<?php echo$_GET['lang']?>" class="navLink">CONTACT</a></li>
                 </ul>
             </nav>
         </header>
@@ -56,18 +56,35 @@
 
     <script>
 
+        var getUrlParameter = function getUrlParameter(sParam) {
+            var sPageURL = window.location.search.substring(1),
+                sURLVariables = sPageURL.split('&'),
+                sParameterName,
+                i;
+        
+            for (i = 0; i < sURLVariables.length; i++) {
+                sParameterName = sURLVariables[i].split('=');
+        
+                if (sParameterName[0] === sParam) {
+                    return sParameterName[1] === undefined ? true : decodeURIComponent(sParameterName[1]);
+                }
+            }
+        };
+
         $('#lang-select').ddslick({
             width:70,
+            defaultSelectedIndex:0,
             onSelected: function(data){
 
-                var oldURL = window.location.href;
-                var type = "Active";
-                if (history.pushState) {
+                console.log(data.selectedData.value);
+                console.log(getUrlParameter('lang'));
 
-                    var newUrl = oldURL.split("&")[0] + "&lang=" + data.selectedData.value;
-                    window.history.pushState({ path: newUrl }, '', newUrl);
+                if(data.selectedData.value != getUrlParameter('lang')){
+                    var oldURL = window.location.href;
+                    var newUrl = oldURL.split("?")[0] + "?lang=" + data.selectedData.value;
+                    console.log(newUrl);
+                    window.location.href = newUrl;
                 }
-                return false;
             }   
         });
 
