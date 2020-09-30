@@ -100,7 +100,6 @@ body {
 }
 
 #lang-select {
-    padding-top: 50px;
     float: right;
 }
 
@@ -539,6 +538,11 @@ footer p {
 
     figure {
         width: 50%;
+    }
+
+    #lang-select {
+        padding-top: 50px;
+        float: right;
     }
 
 /* ============
