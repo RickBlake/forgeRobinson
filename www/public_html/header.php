@@ -10,12 +10,22 @@
 
 ?>
 
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdn.rawgit.com/prashantchaudhary/ddslick/master/jquery.ddslick.min.js" ></script>
+
 <div class="header-container">
         <header class="wrapper clearfix">
 
-            <a href="/">
-                <img id="logo" class="title" src="/img/logo.jpg"></img>
-            </a>
+            <div>
+                <a href="/">
+                    <img id="logo" class="title" src="/img/logo.jpg"></img>
+                </a>
+            </div>
+
+            <select id="lang-select">
+                <option value="en" data-imagesrc="/img/en-flag-small.png"></option>
+                <option value="fr" data-imagesrc="/img/fr-flag-small.png"></option>
+            </select>
 
             <nav>
                 <ul>
@@ -43,3 +53,15 @@
             </nav>
         </header>
     </div>
+
+    <script>
+        $('#lang-select').ddslick({
+            width:70,
+            onSelected: function(selectedData){
+                //callback function: do something with selectedData;
+            }   
+        });
+
+    </script>
+
+    

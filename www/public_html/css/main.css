@@ -99,6 +99,11 @@ body {
     color: white;
 }
 
+#lang-select {
+    padding-top: 40px;
+    float: right;
+}
+
 /* ==============
     MOBILE: Menu
    ============== */
