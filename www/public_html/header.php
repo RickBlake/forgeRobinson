@@ -55,12 +55,22 @@
     </div>
 
     <script>
+
         $('#lang-select').ddslick({
             width:70,
-            onSelected: function(selectedData){
-                //callback function: do something with selectedData;
+            onSelected: function(data){
+
+                var oldURL = window.location.href;
+                var type = "Active";
+                if (history.pushState) {
+
+                    var newUrl = oldURL.split("&")[0] + "&lang=" + data.selectedData.value;
+                    window.history.pushState({ path: newUrl }, '', newUrl);
+                }
+                return false;
             }   
         });
+
 
     </script>
 
