@@ -68,22 +68,18 @@ textarea {
 
 
 .cc-selector input{
-    margin:0;padding:0;
+    margin:0;
+    padding:0;
     -webkit-appearance:none;
        -moz-appearance:none;
             appearance:none;
 }
 
-.cc-selector-2 input{
-    position:absolute;
-    z-index:999;
-}
-
 .en{background-image:url(https://cdn.countryflags.com/thumbs/united-kingdom/flag-square-500.png);}
 .fr{background-image:url(https://cdn.countryflags.com/thumbs/france/flag-square-500.png);}
 
-.cc-selector-2 input:active +.drinkcard-cc, .cc-selector input:active +.drinkcard-cc{opacity: .9;}
-.cc-selector-2 input:checked +.drinkcard-cc, .cc-selector input:checked +.drinkcard-cc{
+.cc-selector input:active +.drinkcard-cc{opacity: .9;}
+.cc-selector input:checked +.drinkcard-cc{
     -webkit-filter: none;
        -moz-filter: none;
             filter: none;
@@ -93,7 +89,7 @@ textarea {
     background-size:contain;
     background-repeat:no-repeat;
     display:inline-block;
-    width:25px;height:25px;
+    width:15px;height:15px;
     -webkit-transition: all 100ms ease-in;
        -moz-transition: all 100ms ease-in;
             transition: all 100ms ease-in;
