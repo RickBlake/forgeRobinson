@@ -27,7 +27,6 @@
 ?>
 
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdn.rawgit.com/prashantchaudhary/ddslick/master/jquery.ddslick.min.js" ></script>
 
 <div class="header-container">
         <header class="wrapper clearfix">
@@ -37,11 +36,6 @@
                     <img id="logo" class="title" src="/img/logo.jpg"></img>
                 </a>
             </div>
-
-            <select id="lang-select">
-                <option value="en" data-imagesrc="/img/en-flag-small.png"></option>
-                <option value="fr" data-imagesrc="/img/fr-flag-small.png"></option>
-            </select>
 
             <nav>
                 <ul>
@@ -65,6 +59,14 @@
                         </div>
                     </li>
                     <li><a href="/contact.php?lang=<?php echo$_GET['lang']?>" class="navLink">CONTACT</a></li>
+                    <li>
+                        <div class="cc-selector">
+                            <input id="en" type="radio" class="radio" name="language" value="en" />
+                            <label class="drinkcard-cc en" for="en"></label>
+                            <input id="fr" type="radio" class="radio" name="language" value="fr" />
+                            <label class="drinkcard-cc fr" for="fr"></label>
+                        </div>
+                    </li>
                 </ul>
             </nav>
         </header>
@@ -87,28 +89,28 @@
             }
         };
 
-        var _ddlLoaded = false;
+        $(document).ready(function () {
+            $('.radio').click(function () {
 
-        $('#lang-select').ddslick({
-            width:70,
-            onSelected: function(data){
-
-                console.log(data.selectedData.value);
+                console.log($(this).val());
                 console.log(getUrlParameter('lang'));
 
-                if(_ddlLoaded  === false) {
-                    _ddlLoaded = true;
-                } else if(data.selectedData.value != getUrlParameter('lang')){
+                if($(this).val() != getUrlParameter('lang')){
                     var oldURL = window.location.href;
-                    var newUrl = oldURL.split("?")[0] + "?lang=" + data.selectedData.value;
+                    var newUrl = oldURL.split("?")[0] + "?lang=" + $(this).val();
                     console.log(newUrl);
                     window.location.href = newUrl;
                 }
-            }   
-        });
+            });
 
-        let langIndex = getUrlParameter('lang') === 'fr' ? 1 : 0;
-        $('#lang-select').ddslick('select', {index: langIndex });
+            if(getUrlParameter('lang') === 'fr') {
+                $('#fr').prop('checked', true);
+                $('#fr').click();
+            } else{
+                $('#en').prop('checked', true);
+                $('#en').click();
+            }
+        });
 
     </script>
 
