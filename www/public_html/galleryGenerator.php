@@ -6,8 +6,10 @@
 
     foreach ($images as $image) {
 
-        $imgTitle = explode(".",basename($image, ".jpg"))[1];
-        $imageDescription =  $imgTitle . " <br/><small>&copy; Simon Robinson " . date("Y") . " All rights reserved</small>";
+        $imgTitle = basename($image, ".jpg");
+        $firstDot = strpos($imgTitle, '.');
+        $imgName = substr($imgTitle, $firstDot+1, strlen($imgTitle)-1);
+        $imageDescription =  $imgName . " <br/><small>&copy; Simon Robinson " . date("Y") . " All rights reserved</small>";
      
  ?>
      <div class="gallery-item" data-src="<?php echo $image; ?>"
