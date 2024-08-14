@@ -1,6 +1,9 @@
 <?php
-
-    $imgFolder = '../img/' . $folderId . '/';
+    if($folderId == 'sketchbook'){
+        $imgFolder = './img/' . $folderId . '/';
+    }else{
+        $imgFolder = '../img/' . $folderId . '/';
+    }
     $images = glob($imgFolder . '*.{jpg}', GLOB_BRACE);
     natsort($images);
 
@@ -13,7 +16,7 @@
      
  ?>
      <div class="gallery-item" data-src="<?php echo $image; ?>"
-         style="background-image: url('<?php echo $image; ?>'), url('/img/loading.gif')"
+         style="background-image: url('<?php echo addslashes($image); ?>'), url('/img/loading.gif')"
          data-sub-html="<?php echo $imageDescription; ?>"
          data-pinterest-text="Work by Forge Robinson" data-tweet-text="Work by Forge Robinson"
          data-facebook-text="Work by Forge Robinson">
